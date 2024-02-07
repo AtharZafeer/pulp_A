@@ -126,3 +126,1802 @@ dismissDialog("Critical Messages"); // a (cr)
 // [Engine Memory]: 1,425 MB (+13853kb) [00:00:40]
 // WARNING: HTimer (FileMgr Design Graph Update Timer) is taking 435ms to process. Increasing delay to 3000 ms.
 // HMemoryUtils.trashcanNow. Engine heap size: 1,434 MB. GUI used memory: 81 MB. Current time: 2/6/24, 5:30:35 PM UTC
+// [GUI Memory]: 140 MB (+2548kb) [00:02:36]
+// Elapsed time: 205 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis]", 13, true); // u (O, cr) - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis]", 13, true, false, false, false, false, true); // u (O, cr) - Double Click - Node
+collapseTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design]", 15); // u (O, cr)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design]", 15); // u (O, cr)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design, Schematic]", 26, false); // u (O, cr)
+// bB (cr):  Open Synthesized Design : addNotify
+// Tcl Message: open_run synth_1 -name synth_1 
+// Tcl Message: Design is defaulting to impl run constrset: constrs_1 Design is defaulting to synth run part: xczu9eg-ffvb1156-2-e 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,496 MB. GUI used memory: 81 MB. Current time: 2/6/24, 5:33:59 PM UTC
+// HMemoryUtils.trashcanNow. Engine heap size: 2,268 MB. GUI used memory: 81 MB. Current time: 2/6/24, 5:34:14 PM UTC
+// [Engine Memory]: 2,268 MB (+809686kb) [00:04:55]
+// HMemoryUtils.trashcanNow. Engine heap size: 2,323 MB. GUI used memory: 81 MB. Current time: 2/6/24, 5:35:00 PM UTC
+// HMemoryUtils.trashcanNow. Engine heap size: 2,618 MB. GUI used memory: 81 MB. Current time: 2/6/24, 5:35:19 PM UTC
+// HMemoryUtils.trashcanNow. Engine heap size: 2,872 MB. GUI used memory: 80 MB. Current time: 2/6/24, 5:35:34 PM UTC
+// HMemoryUtils.trashcanNow. Engine heap size: 3,159 MB. GUI used memory: 80 MB. Current time: 2/6/24, 5:35:54 PM UTC
+// [Engine Memory]: 3,249 MB (+909849kb) [00:06:07]
+// HMemoryUtils.trashcanNow. Engine heap size: 3,326 MB. GUI used memory: 80 MB. Current time: 2/6/24, 5:36:29 PM UTC
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: POWER_CNS_STALE
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// HMemoryUtils.trashcanNow. Engine heap size: 3,536 MB. GUI used memory: 80 MB. Current time: 2/6/24, 5:36:49 PM UTC
+// HMemoryUtils.trashcanNow. Engine heap size: 4,186 MB. GUI used memory: 80 MB. Current time: 2/6/24, 5:37:04 PM UTC
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: TIMING_RESULTS_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: FLOORPLAN_MODIFY
+// [Engine Memory]: 4,199 MB (+825297kb) [00:07:27]
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 4,199 MB. GUI used memory: 80 MB. Current time: 2/6/24, 5:37:20 PM UTC
+// TclEventType: DESIGN_NEW
+// [GUI Memory]: 151 MB (+4484kb) [00:07:31]
+// Xgd.load filename: /cad/xilinx/Vivado/2019.2/data/parts/xilinx/zynquplus/devint/zynquplus/xczu9eg/xczu9eg.xgd; ZipEntry: xczu9eg_detail.xgd elapsed time: 1s
+// [GUI Memory]: 161 MB (+1720kb) [00:07:33]
+// [GUI Memory]: 176 MB (+7216kb) [00:07:33]
+// Device: addNotify
+// [GUI Memory]: 200 MB (+15897kb) [00:07:34]
+// DeviceView Instantiated
+// WARNING: HEventQueue.dispatchEvent() is taking  3389 ms.
+// Tcl Message: INFO: [Device 21-403] Loading part xczu9eg-ffvb1156-2-e INFO: [Project 1-454] Reading design checkpoint '/home/azafeer/Desktop/test/pulp_A/fpga/pulp/ips/xilinx_slow_clk_mngr/xilinx_slow_clk_mngr.srcs/sources_1/ip/xilinx_slow_clk_mngr/xilinx_slow_clk_mngr.dcp' for cell 'i_pulp/safe_domain_i/i_slow_clk_gen/i_slow_clk_mngr' INFO: [Project 1-454] Reading design checkpoint '/home/azafeer/Desktop/test/pulp_A/fpga/pulp/ips/xilinx_clk_mngr/xilinx_clk_mngr.srcs/sources_1/ip/xilinx_clk_mngr/xilinx_clk_mngr.dcp' for cell 'i_pulp/soc_domain_i/pulp_soc_i/i_clk_rst_gen/i_fpga_clk_gen/i_clk_manager' 
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 7995.012 ; gain = 0.000 ; free physical = 46334 ; free virtual = 81449 
+// Tcl Message: INFO: [Netlist 29-17] Analyzing 17186 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds INFO: [Project 1-479] Netlist was created with Vivado 2019.2 INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message: INFO: [Timing 38-35] Done setting XDC timing constraints. [/home/azafeer/Desktop/test/pulp_A/fpga/pulp/ips/xilinx_clk_mngr/xilinx_clk_mngr.srcs/sources_1/ip/xilinx_clk_mngr/xilinx_clk_mngr.xdc:57] INFO: [Timing 38-2] Deriving generated clocks [/home/azafeer/Desktop/test/pulp_A/fpga/pulp/ips/xilinx_clk_mngr/xilinx_clk_mngr.srcs/sources_1/ip/xilinx_clk_mngr/xilinx_clk_mngr.xdc:57] 
+// Tcl Message: get_clocks: Time (s): cpu = 00:00:52 ; elapsed = 00:00:27 . Memory (MB): peak = 9633.961 ; gain = 826.312 ; free physical = 44937 ; free virtual = 80060 
+// Tcl Message: INFO: [Timing 38-2] Deriving generated clocks [/home/azafeer/Desktop/test/pulp_A/fpga/pulp/ips/xilinx_slow_clk_mngr/xilinx_slow_clk_mngr.srcs/sources_1/ip/xilinx_slow_clk_mngr/xilinx_slow_clk_mngr.xdc:57] 
+// Tcl Message: Finished Parsing XDC File [/home/azafeer/Desktop/test/pulp_A/fpga/pulp/ips/xilinx_slow_clk_mngr/xilinx_slow_clk_mngr.srcs/sources_1/ip/xilinx_slow_clk_mngr/xilinx_slow_clk_mngr.xdc] for cell 'i_pulp/safe_domain_i/i_slow_clk_gen/i_slow_clk_mngr/inst' Parsing XDC File [/home/azafeer/Desktop/test/pulp_A/fpga/pulp-zcu102/constraints/zcu102.xdc] 
+// Tcl Message: INFO: [Vivado 12-2286] Implicit search of objects for pattern 'i_pulp/safe_domain_i/cam_pclk_o' matched to 'pin' objects. [/home/azafeer/Desktop/test/pulp_A/fpga/pulp-zcu102/constraints/zcu102.xdc:19] Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz]. INFO: [Vivado 12-2286] Implicit search of objects for pattern 'i_pulp/safe_domain_i/i2s_slave_sck_o' matched to 'pin' objects. [/home/azafeer/Desktop/test/pulp_A/fpga/pulp-zcu102/constraints/zcu102.xdc:20] Resolution: To avoid ambiguous patterns, provide proper objects using get commands e.g. [get_nets xyz]. 
+// Tcl Message: get_clocks: Time (s): cpu = 00:00:19 ; elapsed = 00:00:06 . Memory (MB): peak = 9633.961 ; gain = 0.000 ; free physical = 44977 ; free virtual = 80101 
+// Tcl Message: Finished Parsing XDC File [/home/azafeer/Desktop/test/pulp_A/fpga/pulp-zcu102/constraints/zcu102.xdc] Parsing XDC File [/home/azafeer/Desktop/test/pulp_A/fpga/pulp/ips/xilinx_slow_clk_mngr/xilinx_slow_clk_mngr.srcs/sources_1/ip/xilinx_slow_clk_mngr/xilinx_slow_clk_mngr_late.xdc] for cell 'i_pulp/safe_domain_i/i_slow_clk_gen/i_slow_clk_mngr/inst' Finished Parsing XDC File [/home/azafeer/Desktop/test/pulp_A/fpga/pulp/ips/xilinx_slow_clk_mngr/xilinx_slow_clk_mngr.srcs/sources_1/ip/xilinx_slow_clk_mngr/xilinx_slow_clk_mngr_late.xdc] for cell 'i_pulp/safe_domain_i/i_slow_clk_gen/i_slow_clk_mngr/inst' 
+// Tcl Message: INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s). 
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.04 . Memory (MB): peak = 9633.961 ; gain = 0.000 ; free physical = 45333 ; free virtual = 80457 
+// Tcl Message: INFO: [Project 1-111] Unisim Transformation Summary:   A total of 128 instances were transformed.   DSP48E2 => DSP48E2 (DSP_ALU, DSP_A_B_DATA, DSP_C_DATA, DSP_MULTIPLIER, DSP_M_DATA, DSP_OUTPUT, DSP_PREADD, DSP_PREADD_DATA): 76 instances   IBUF => IBUF (IBUFCTRL, INBUF): 5 instances   IBUFGDS => IBUFDS (DIFFINBUF, IBUFCTRL): 1 instance    IOBUF => IOBUF (IBUFCTRL, INBUF, OBUFT): 46 instances  
+// ExpRunCommands.openSynthResults elapsed time: 213.7s
+// OpenDesignTask elapsed time: 213.7s
+// Device view-level: 0.0
+// Tcl Message: open_run: Time (s): cpu = 00:04:00 ; elapsed = 00:03:33 . Memory (MB): peak = 9643.961 ; gain = 2768.090 ; free physical = 45045 ; free virtual = 80174 
+// Run Command: PAResourceCommand.PACommandNames_SCHEMATIC
+// Schematic: addNotify
+// Elapsed time: 215 seconds
+dismissDialog("Open Synthesized Design"); // bB (cr)
+// [Engine Memory]: 4,633 MB (+235209kb) [00:07:37]
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// RouteApi::loadEngineXgd elapsed time: 7s
+// HMemoryUtils.trashcanNow. Engine heap size: 5,116 MB. GUI used memory: 149 MB. Current time: 2/6/24, 5:37:40 PM UTC
+// RouteApi::initDelayMediator elapsed time: 24.5s
+// RouteApi: Init Delay Mediator Swing Worker Finished
+// [Engine Memory]: 5,116 MB (+263148kb) [00:08:48]
+// PAPropertyPanels.initPanels (xilinx_pulp) elapsed time: 0.2s
+// Elapsed time: 756 seconds
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[xilinx_pulp]", 0, true, false, false, false, true, false); // bD (O, cr) - Popup Trigger - Node
+selectMenu(PAResourceItoN.NetlistTreeView_FLOORPLANNING, "Floorplanning"); // af (ao, cr)
+selectMenuItem(PAResourceCommand.PACommandNames_SHOW_HIERARCHY, "Show Hierarchy"); // ai (ao, cr)
+// Run Command: PAResourceCommand.PACommandNames_SHOW_HIERARCHY
+// Instance Tree: addNotify
+// [GUI Memory]: 210 MB (+43kb) [00:37:42]
+// HMemoryUtils.trashcanNow. Engine heap size: 5,118 MB. GUI used memory: 156 MB. Current time: 2/6/24, 6:07:40 PM UTC
+// HMemoryUtils.trashcanNow. Engine heap size: 5,118 MB. GUI used memory: 159 MB. Current time: 2/6/24, 6:23:32 PM UTC
+// [GUI Memory]: 220 MB (+76kb) [00:53:42]
+// Elapsed time: 2012 seconds
+selectGraphicalView(PAResourceOtoP.PAViews_HIERARCHY, 3201780, 3233100); // p (q, cr)
+selectGraphicalView(PAResourceOtoP.PAViews_HIERARCHY, 3288939, 3337870); // p (q, cr)
+// HMemoryUtils.trashcanNow. Engine heap size: 5,126 MB. GUI used memory: 183 MB. Current time: 2/6/24, 6:23:43 PM UTC
+selectGraphicalView(PAResourceOtoP.PAViews_HIERARCHY, 3251615, 3133927); // p (q, cr)
+selectGraphicalView(PAResourceOtoP.PAViews_HIERARCHY, 3298123, 3003902); // p (q, cr)
+selectGraphicalView(PAResourceOtoP.PAViews_HIERARCHY, 3343680, 2817878); // p (q, cr)
+selectGraphicalView(PAResourceOtoP.PAViews_HIERARCHY, 2991564, 2493286); // p (q, cr)
+// Instance Tree: 'Cell - FC_CORE.lFC_CORE'
+selectView(PAResourceOtoP.PAViews_HIERARCHY, "Hierarchy", 3152, 2627, 1095, 591); // o (i, cr)
+// PAPropertyPanels.initPanels (FC_CORE.lFC_CORE (riscv_core)) elapsed time: 0.4s
+selectGraphicalView(PAResourceOtoP.PAViews_HIERARCHY, 3388288, 2779914); // p (q, cr)
+// HMemoryUtils.trashcanNow. Engine heap size: 5,127 MB. GUI used memory: 156 MB. Current time: 2/6/24, 6:23:50 PM UTC
+selectGraphicalView(PAResourceOtoP.PAViews_HIERARCHY, 2729137, 3367645); // p (q, cr)
+// HMemoryUtils.trashcanNow. Engine heap size: 5,127 MB. GUI used memory: 157 MB. Current time: 2/6/24, 6:23:54 PM UTC
+selectGraphicalView(PAResourceOtoP.PAViews_HIERARCHY, 2760405, 3520248); // p (q, cr)
+selectGraphicalView(PAResourceOtoP.PAViews_HIERARCHY, 2868645, 3589181); // p (q, cr)
+// HMemoryUtils.trashcanNow. Engine heap size: 5,127 MB. GUI used memory: 157 MB. Current time: 2/6/24, 6:23:58 PM UTC
+selectGraphicalView(PAResourceOtoP.PAViews_HIERARCHY, 2923528, 3582825); // p (q, cr)
+selectTab((HResource) null, (HResource) null, "Sources", 0); // aL (aI, cr)
+selectTab((HResource) null, (HResource) null, "Netlist", 1); // aL (aI, cr)
+selectGraphicalView(PAResourceOtoP.PAViews_HIERARCHY, 2967023, 3578950); // p (q, cr)
+selectGraphicalView(PAResourceOtoP.PAViews_HIERARCHY, 3023016, 3583075); // p (q, cr)
+selectGraphicalView(PAResourceOtoP.PAViews_HIERARCHY, 3053138, 3593699); // p (q, cr)
+// HMemoryUtils.trashcanNow. Engine heap size: 5,128 MB. GUI used memory: 157 MB. Current time: 2/6/24, 6:24:12 PM UTC
+selectGraphicalView(PAResourceOtoP.PAViews_HIERARCHY, 3045805, 3587824); // p (q, cr)
+selectGraphicalView(PAResourceOtoP.PAViews_HIERARCHY, 3049722, 3595573); // p (q, cr)
+selectGraphicalView(PAResourceOtoP.PAViews_HIERARCHY, 3042556, 3584741); // p (q, cr)
+// Instance Tree: 'Cell - i_r_counter'
+selectView(PAResourceOtoP.PAViews_HIERARCHY, "Hierarchy", 36515, 43022, 1095, 591); // o (i, cr)
+expandTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[xilinx_pulp, i_pulp (pulp), soc_domain_i (soc_domain), pulp_soc_i (pulp_soc), i_soc_interconnect_wrap (soc_interconnect_wrap), i_axi_to_axi_lite (axi_to_axi_lite_intf), i_axi_to_axi_lite (axi_to_axi_lite), i_axi_burst_splitter (axi_burst_splitter), i_err_slv (axi_err_slv__parameterized0), i_r_counter (counter__127)]", 51); // bD (O, cr)
+expandTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[xilinx_pulp, i_pulp (pulp), soc_domain_i (soc_domain), pulp_soc_i (pulp_soc), i_soc_interconnect_wrap (soc_interconnect_wrap), i_axi_to_axi_lite (axi_to_axi_lite_intf), i_axi_to_axi_lite (axi_to_axi_lite), i_axi_burst_splitter (axi_burst_splitter), i_err_slv (axi_err_slv__parameterized0), i_r_counter (counter__127), i_counter (delta_counter__parameterized0__10)]", 54); // bD (O, cr)
+collapseTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[xilinx_pulp, i_pulp (pulp), soc_domain_i (soc_domain), pulp_soc_i (pulp_soc), i_soc_interconnect_wrap (soc_interconnect_wrap), i_axi_to_axi_lite (axi_to_axi_lite_intf), i_axi_to_axi_lite (axi_to_axi_lite), i_axi_burst_splitter (axi_burst_splitter), i_err_slv (axi_err_slv__parameterized0), i_r_counter (counter__127), i_counter (delta_counter__parameterized0__10)]", 54); // bD (O, cr)
+expandTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[xilinx_pulp, i_pulp (pulp), soc_domain_i (soc_domain), pulp_soc_i (pulp_soc), i_soc_interconnect_wrap (soc_interconnect_wrap), i_axi_to_axi_lite (axi_to_axi_lite_intf), i_axi_to_axi_lite (axi_to_axi_lite), i_axi_burst_splitter (axi_burst_splitter), i_err_slv (axi_err_slv__parameterized0), i_r_counter (counter__127), i_counter (delta_counter__parameterized0__10)]", 54); // bD (O, cr)
+collapseTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[xilinx_pulp, i_pulp (pulp), soc_domain_i (soc_domain), pulp_soc_i (pulp_soc), i_soc_interconnect_wrap (soc_interconnect_wrap), i_axi_to_axi_lite (axi_to_axi_lite_intf), i_axi_to_axi_lite (axi_to_axi_lite), i_axi_burst_splitter (axi_burst_splitter), i_err_slv (axi_err_slv__parameterized0), i_r_counter (counter__127), i_counter (delta_counter__parameterized0__10)]", 54); // bD (O, cr)
+expandTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[xilinx_pulp, i_pulp (pulp), soc_domain_i (soc_domain), pulp_soc_i (pulp_soc), i_soc_interconnect_wrap (soc_interconnect_wrap), i_axi_to_axi_lite (axi_to_axi_lite_intf), i_axi_to_axi_lite (axi_to_axi_lite), i_axi_burst_splitter (axi_burst_splitter), i_err_slv (axi_err_slv__parameterized0), i_r_counter (counter__127), i_counter (delta_counter__parameterized0__10)]", 54); // bD (O, cr)
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[xilinx_pulp, i_pulp (pulp), soc_domain_i (soc_domain), pulp_soc_i (pulp_soc), i_soc_interconnect_wrap (soc_interconnect_wrap), i_axi_to_axi_lite (axi_to_axi_lite_intf), i_axi_to_axi_lite (axi_to_axi_lite), i_axi_burst_splitter (axi_burst_splitter), i_err_slv (axi_err_slv__parameterized0), i_r_counter (counter__127), i_counter (delta_counter__parameterized0__10)]", 54, true); // bD (O, cr) - Node
+expandTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[xilinx_pulp, i_pulp (pulp), soc_domain_i (soc_domain), pulp_soc_i (pulp_soc), i_soc_interconnect_wrap (soc_interconnect_wrap), i_axi_to_axi_lite (axi_to_axi_lite_intf), i_axi_to_axi_lite (axi_to_axi_lite), i_axi_burst_splitter (axi_burst_splitter), i_err_slv (axi_err_slv__parameterized0), i_r_counter (counter__127), i_counter (delta_counter__parameterized0__10), Leaf Cells (29)]", 56); // bD (O, cr)
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[xilinx_pulp, i_pulp (pulp), soc_domain_i (soc_domain), pulp_soc_i (pulp_soc), i_soc_interconnect_wrap (soc_interconnect_wrap), i_axi_to_axi_lite (axi_to_axi_lite_intf), i_axi_to_axi_lite (axi_to_axi_lite), i_axi_burst_splitter (axi_burst_splitter), i_err_slv (axi_err_slv__parameterized0), i_r_counter (counter__127)]", 51, true); // bD (O, cr) - Node
+expandTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[xilinx_pulp, i_pulp (pulp), soc_domain_i (soc_domain), pulp_soc_i (pulp_soc), i_soc_interconnect_wrap (soc_interconnect_wrap), i_axi_to_axi_lite (axi_to_axi_lite_intf), i_axi_to_axi_lite (axi_to_axi_lite), i_axi_burst_splitter (axi_burst_splitter), i_err_slv (axi_err_slv__parameterized0), i_r_counter (counter__127), Leaf Cells (2)]", 53); // bD (O, cr)
+collapseTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[xilinx_pulp, i_pulp (pulp), soc_domain_i (soc_domain), pulp_soc_i (pulp_soc), i_soc_interconnect_wrap (soc_interconnect_wrap), i_axi_to_axi_lite (axi_to_axi_lite_intf), i_axi_to_axi_lite (axi_to_axi_lite), i_axi_burst_splitter (axi_burst_splitter), i_err_slv (axi_err_slv__parameterized0), i_r_counter (counter__127), Leaf Cells (2)]", 53); // bD (O, cr)
+expandTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[xilinx_pulp, i_pulp (pulp), soc_domain_i (soc_domain), pulp_soc_i (pulp_soc), i_soc_interconnect_wrap (soc_interconnect_wrap), i_axi_to_axi_lite (axi_to_axi_lite_intf), i_axi_to_axi_lite (axi_to_axi_lite), i_axi_burst_splitter (axi_burst_splitter), i_err_slv (axi_err_slv__parameterized0), i_r_counter (counter__127), Nets (15)]", 52); // bD (O, cr)
+collapseTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[xilinx_pulp, i_pulp (pulp), soc_domain_i (soc_domain), pulp_soc_i (pulp_soc), i_soc_interconnect_wrap (soc_interconnect_wrap), i_axi_to_axi_lite (axi_to_axi_lite_intf), i_axi_to_axi_lite (axi_to_axi_lite), i_axi_burst_splitter (axi_burst_splitter), i_err_slv (axi_err_slv__parameterized0), i_r_counter (counter__127), Nets (15)]", 52); // bD (O, cr)
+collapseTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[xilinx_pulp, i_pulp (pulp), soc_domain_i (soc_domain), pulp_soc_i (pulp_soc), i_soc_interconnect_wrap (soc_interconnect_wrap), i_axi_to_axi_lite (axi_to_axi_lite_intf), i_axi_to_axi_lite (axi_to_axi_lite), i_axi_burst_splitter (axi_burst_splitter), i_err_slv (axi_err_slv__parameterized0), i_r_counter (counter__127), i_counter (delta_counter__parameterized0__10)]", 54); // bD (O, cr)
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[xilinx_pulp, i_pulp (pulp), soc_domain_i (soc_domain), pulp_soc_i (pulp_soc), i_soc_interconnect_wrap (soc_interconnect_wrap), i_axi_to_axi_lite (axi_to_axi_lite_intf), i_axi_to_axi_lite (axi_to_axi_lite), i_axi_burst_splitter (axi_burst_splitter), i_err_slv (axi_err_slv__parameterized0), i_r_counter (counter__127)]", 51, true); // bD (O, cr) - Node
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[xilinx_pulp, i_pulp (pulp), soc_domain_i (soc_domain), pulp_soc_i (pulp_soc), i_soc_interconnect_wrap (soc_interconnect_wrap), i_axi_to_axi_lite (axi_to_axi_lite_intf), i_axi_to_axi_lite (axi_to_axi_lite), i_axi_burst_splitter (axi_burst_splitter), i_err_slv (axi_err_slv__parameterized0), i_r_counter (counter__127)]", 51, true, false, false, false, true, false); // bD (O, cr) - Popup Trigger - Node
+selectMenu(PAResourceItoN.InstanceMenu_FLOORPLANNING, "Floorplanning"); // af (ao, cr)
+selectMenu(PAResourceOtoP.PrimitivesMenu_HIGHLIGHT_LEAF_CELLS, "Highlight Leaf Cells"); // af (ao, cr)
+selectMenu(PAResourceQtoS.SelectMenu_HIGHLIGHT, "Highlight"); // af (ao, cr)
+selectMenu(PAResourceQtoS.SelectMenu_MARK, "Mark"); // af (ao, cr)
+selectMenu(PAResourceQtoS.SelectMenu_HIGHLIGHT, "Highlight"); // af (ao, cr)
+selectMenu(PAResourceOtoP.PrimitivesMenu_HIGHLIGHT_LEAF_CELLS, "Highlight Leaf Cells"); // af (ao, cr)
+selectMenu(PAResourceQtoS.SelectMenu_HIGHLIGHT, "Highlight"); // af (ao, cr)
+selectMenu(PAResourceQtoS.SelectMenu_MARK, "Mark"); // af (ao, cr)
+selectMenuItem(PAResourceCommand.PACommandNames_SHOW_HIERARCHY, "Show Hierarchy"); // ai (ao, cr)
+// Run Command: PAResourceCommand.PACommandNames_SHOW_HIERARCHY
+// Instance Tree: addNotify
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[xilinx_pulp, i_pulp (pulp), soc_domain_i (soc_domain), pulp_soc_i (pulp_soc), i_soc_interconnect_wrap (soc_interconnect_wrap), i_axi_to_axi_lite (axi_to_axi_lite_intf), i_axi_to_axi_lite (axi_to_axi_lite), i_axi_burst_splitter (axi_burst_splitter), i_err_slv (axi_err_slv__parameterized0), i_r_counter (counter__127)]", 51, true, false, false, false, true, false); // bD (O, cr) - Popup Trigger - Node
+selectMenu(PAResourceItoN.InstanceMenu_FLOORPLANNING, "Floorplanning"); // af (ao, cr)
+selectMenu(PAResourceOtoP.PrimitivesMenu_HIGHLIGHT_LEAF_CELLS, "Highlight Leaf Cells"); // af (ao, cr)
+selectMenu(PAResourceQtoS.SelectMenu_HIGHLIGHT, "Highlight"); // af (ao, cr)
+selectMenu(PAResourceQtoS.SelectMenu_MARK, "Mark"); // af (ao, cr)
+selectMenu(PAResourceQtoS.SelectMenu_MARK, "Mark"); // af (ao, cr)
+selectMenu(PAResourceQtoS.SelectMenu_HIGHLIGHT, "Highlight"); // af (ao, cr)
+selectMenu(PAResourceOtoP.PrimitivesMenu_HIGHLIGHT_LEAF_CELLS, "Highlight Leaf Cells"); // af (ao, cr)
+selectMenu(PAResourceOtoP.PrimitivesMenu_HIGHLIGHT_LEAF_CELLS, "Highlight Leaf Cells"); // af (ao, cr)
+selectMenu(PAResourceQtoS.SelectMenu_HIGHLIGHT, "Highlight"); // af (ao, cr)
+selectMenu(PAResourceQtoS.SelectMenu_MARK, "Mark"); // af (ao, cr)
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ai (ao, cr)
+selectTab((HResource) null, (HResource) null, "Sources", 0); // aL (aI, cr)
+selectButton(RDIResource.AbstractSearchablePanel_SHOW_SEARCH, "Sources_search"); // x (f, cr): TRUE
+// WARNING: HEventQueue.dispatchEvent() is taking  2272 ms.
+setText("PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE_SEARCH_FIELD", "i_r_counter", true); // OverlayTextField (C, cr)
+// WARNING: HEventQueue.dispatchEvent() is taking  2076 ms.
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, xilinx_pulp (xilinx_pulp.v), i_pulp : pulp (pulp.sv), soc_domain_i : soc_domain (soc_domain.sv), pulp_soc_i : pulp_soc (pulp_soc.sv), i_soc_interconnect_wrap : soc_interconnect_wrap (soc_interconnect_wrap.sv)]", 5, true); // B (F, cr) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, xilinx_pulp (xilinx_pulp.v), i_pulp : pulp (pulp.sv), cluster_domain_i : cluster_domain (cluster_domain.sv), cluster_i : pulp_cluster (pulp_cluster.sv), axi_dw_UPSIZE_32_64_wrap_i : axi_dw_converter_intf (axi_dw_converter.sv), i_axi_dw_converter : axi_dw_converter (axi_dw_converter.sv), gen_dw_upsize.i_axi_dw_upsizer : axi_dw_upsizer (axi_dw_upsizer.sv), i_axi_err_slv : axi_err_slv (axi_err_slv.sv), i_r_counter : counter (counter.sv)]", 17, true); // B (F, cr) - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, xilinx_pulp (xilinx_pulp.v), i_pulp : pulp (pulp.sv), cluster_domain_i : cluster_domain (cluster_domain.sv), cluster_i : pulp_cluster (pulp_cluster.sv), axi_dw_UPSIZE_32_64_wrap_i : axi_dw_converter_intf (axi_dw_converter.sv), i_axi_dw_converter : axi_dw_converter (axi_dw_converter.sv), gen_dw_upsize.i_axi_dw_upsizer : axi_dw_upsizer (axi_dw_upsizer.sv), i_axi_err_slv : axi_err_slv (axi_err_slv.sv), i_r_counter : counter (counter.sv)]", 17); // B (F, cr)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, xilinx_pulp (xilinx_pulp.v), i_pulp : pulp (pulp.sv), cluster_domain_i : cluster_domain (cluster_domain.sv), cluster_i : pulp_cluster (pulp_cluster.sv), axi_dw_UPSIZE_32_64_wrap_i : axi_dw_converter_intf (axi_dw_converter.sv), i_axi_dw_converter : axi_dw_converter (axi_dw_converter.sv), gen_dw_upsize.i_axi_dw_upsizer : axi_dw_upsizer (axi_dw_upsizer.sv), i_axi_err_slv : axi_err_slv (axi_err_slv.sv), i_r_counter : counter (counter.sv)]", 17); // B (F, cr)
+// HMemoryUtils.trashcanNow. Engine heap size: 5,192 MB. GUI used memory: 164 MB. Current time: 2/6/24, 6:25:40 PM UTC
+// Elapsed time: 15 seconds
+selectGraphicalView(PAResourceOtoP.PAViews_HIERARCHY, 1427027, 245045); // p (q, cr)
+// Instance Tree: 'Cell - i_r_counter'
+selectView(PAResourceOtoP.PAViews_HIERARCHY, "Hierarchy", 468, 34, 1095, 591); // o (i, cr)
+// HMemoryUtils.trashcanNow. Engine heap size: 5,193 MB. GUI used memory: 164 MB. Current time: 2/6/24, 6:25:48 PM UTC
+selectLabel((HResource) null, "i_pulp/soc_domain_i/pulp_soc_i/i_soc_interconnect_wrap/i_axi_to_axi_lite/i_axi_to_axi_lite/i_axi_burst_splitter/i_err_slv"); // l (c, cr)
+selectLabel((HResource) null, "i_pulp/soc_domain_i/pulp_soc_i/i_soc_interconnect_wrap/i_axi_to_axi_lite/i_axi_to_axi_lite/i_axi_burst_splitter/i_err_slv", false, false, false, false, true); // l (c, cr) - Double Click
+// Run Command: RDIResourceCommand.RDICommands_PROPERTIES
+selectLabel((HResource) null, "i_pulp/soc_domain_i/pulp_soc_i/i_soc_interconnect_wrap/i_axi_to_axi_lite/i_axi_to_axi_lite/i_axi_burst_splitter", false, false, false, true, false); // l (c, cr) - Popup Trigger
+selectMenu(PAResourceItoN.InstanceMenu_FLOORPLANNING, "Floorplanning"); // af (ao, cr)
+selectMenu(PAResourceOtoP.PrimitivesMenu_HIGHLIGHT_LEAF_CELLS, "Highlight Leaf Cells"); // af (ao, cr)
+selectMenu(PAResourceQtoS.SelectMenu_HIGHLIGHT, "Highlight"); // af (ao, cr)
+selectMenu(PAResourceQtoS.SelectMenu_MARK, "Mark"); // af (ao, cr)
+selectMenu(PAResourceQtoS.SelectMenu_HIGHLIGHT, "Highlight"); // af (ao, cr)
+selectMenu(PAResourceOtoP.PrimitivesMenu_HIGHLIGHT_LEAF_CELLS, "Highlight Leaf Cells"); // af (ao, cr)
+selectLabel((HResource) null, "i_pulp/soc_domain_i/pulp_soc_i/i_soc_interconnect_wrap/i_axi_to_axi_lite/i_axi_to_axi_lite/i_axi_burst_splitter", false, false, false, true, false); // l (c, cr) - Popup Trigger
+selectLabel((HResource) null, "i_pulp/soc_domain_i/pulp_soc_i/i_soc_interconnect_wrap/i_axi_to_axi_lite/i_axi_to_axi_lite/i_axi_burst_splitter"); // l (c, cr)
+selectLabel((HResource) null, "i_pulp/soc_domain_i/pulp_soc_i/i_soc_interconnect_wrap/i_axi_to_axi_lite/i_axi_to_axi_lite/i_axi_burst_splitter"); // l (c, cr)
+selectLabel((HResource) null, "i_pulp/soc_domain_i/pulp_soc_i/i_soc_interconnect_wrap/i_axi_to_axi_lite/i_axi_to_axi_lite/i_axi_burst_splitter", false, false, false, true, false); // l (c, cr) - Popup Trigger
+selectLabel((HResource) null, "i_pulp/soc_domain_i/pulp_soc_i/i_soc_interconnect_wrap/i_axi_to_axi_lite/i_axi_to_axi_lite/i_axi_burst_splitter"); // l (c, cr)
+selectLabel((HResource) null, "i_pulp/soc_domain_i/pulp_soc_i/i_soc_interconnect_wrap/i_axi_to_axi_lite/i_axi_to_axi_lite/i_axi_burst_splitter", false, false, false, false, true); // l (c, cr) - Double Click
+// Run Command: RDIResourceCommand.RDICommands_PROPERTIES
+selectLabel((HResource) null, "i_pulp/soc_domain_i/pulp_soc_i/i_soc_interconnect_wrap/i_axi_to_axi_lite/i_axi_to_axi_lite"); // l (c, cr)
+selectLabel((HResource) null, "i_pulp/soc_domain_i/pulp_soc_i/i_soc_interconnect_wrap/i_axi_to_axi_lite/i_axi_to_axi_lite", false, false, false, true, false); // l (c, cr) - Popup Trigger
+selectButton(PAResourceEtoH.FileSetView_COLLAPSE_ALL, "Sources_collapse_all"); // E (f, cr)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0); // B (F, cr)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, xilinx_pulp (xilinx_pulp.v)]", 1); // B (F, cr)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, xilinx_pulp (xilinx_pulp.v)]", 1); // B (F, cr)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, xilinx_pulp (xilinx_pulp.v)]", 1); // B (F, cr)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, xilinx_pulp (xilinx_pulp.v), i_pulp : pulp (pulp.sv)]", 2); // B (F, cr)
+closeView(PAResourceOtoP.PAViews_HIERARCHY, "Hierarchy"); // o
+selectGraphicalView(PAResourceOtoP.PAViews_HIERARCHY, 3052638, 3589074); // p (q, cr)
+// HMemoryUtils.trashcanNow. Engine heap size: 5,194 MB. GUI used memory: 157 MB. Current time: 2/6/24, 6:26:22 PM UTC
+selectGraphicalView(PAResourceOtoP.PAViews_HIERARCHY, 3067792, 3542486); // p (q, cr)
+selectGraphicalView(PAResourceOtoP.PAViews_HIERARCHY, 3273472, 3493665); // p (q, cr)
+selectGraphicalView(PAResourceOtoP.PAViews_HIERARCHY, 3410144, 3340859); // p (q, cr)
+selectGraphicalView(PAResourceOtoP.PAViews_HIERARCHY, 3364586, 3094091); // p (q, cr)
+// HMemoryUtils.trashcanNow. Engine heap size: 5,194 MB. GUI used memory: 161 MB. Current time: 2/6/24, 6:26:27 PM UTC
+selectGraphicalView(PAResourceOtoP.PAViews_HIERARCHY, 2870101, 2605300); // p (q, cr)
+// HMemoryUtils.trashcanNow. Engine heap size: 5,194 MB. GUI used memory: 162 MB. Current time: 2/6/24, 6:26:31 PM UTC
+selectGraphicalView(PAResourceOtoP.PAViews_HIERARCHY, 3231000, 2434461); // p (q, cr)
+// Instance Tree: 'Cell - fc_subsystem_i'
+selectView(PAResourceOtoP.PAViews_HIERARCHY, "Hierarchy", 1513, 1140, 1095, 591); // o (i, cr)
+selectGraphicalView(PAResourceOtoP.PAViews_HIERARCHY, 3200391, 2657976); // p (q, cr)
+selectGraphicalView(PAResourceOtoP.PAViews_HIERARCHY, 2876852, 2714450); // p (q, cr)
+// HMemoryUtils.trashcanNow. Engine heap size: 5,194 MB. GUI used memory: 170 MB. Current time: 2/6/24, 6:26:36 PM UTC
+selectGraphicalView(PAResourceOtoP.PAViews_HIERARCHY, 2874321, 2641895); // p (q, cr)
+selectGraphicalView(PAResourceOtoP.PAViews_HIERARCHY, 2834247, 2545297); // p (q, cr)
+// Instance Tree: 'Cell - ex_stage_i'
+selectView(PAResourceOtoP.PAViews_HIERARCHY, "Hierarchy", 6719, 6034, 1095, 591); // o (i, cr)
+selectGraphicalView(PAResourceOtoP.PAViews_HIERARCHY, 2995525, 2751148); // p (q, cr)
+// HMemoryUtils.trashcanNow. Engine heap size: 5,194 MB. GUI used memory: 169 MB. Current time: 2/6/24, 6:26:45 PM UTC
+selectGraphicalView(PAResourceOtoP.PAViews_HIERARCHY, 2967215, 2733617); // p (q, cr)
+// HMemoryUtils.trashcanNow. Engine heap size: 5,194 MB. GUI used memory: 171 MB. Current time: 2/6/24, 6:26:49 PM UTC
+selectGraphicalView(PAResourceOtoP.PAViews_HIERARCHY, 2999658, 2742063); // p (q, cr)
+selectGraphicalView(PAResourceOtoP.PAViews_HIERARCHY, 2998916, 2757818); // p (q, cr)
+selectGraphicalView(PAResourceOtoP.PAViews_HIERARCHY, 2996189, 2788335); // p (q, cr)
+// HMemoryUtils.trashcanNow. Engine heap size: 5,194 MB. GUI used memory: 167 MB. Current time: 2/6/24, 6:26:55 PM UTC
+selectGraphicalView(PAResourceOtoP.PAViews_HIERARCHY, 2984315, 2840705); // p (q, cr)
+// Instance Tree: 'Leaf Cells - Leaf Cells mult_i'
+selectView(PAResourceOtoP.PAViews_HIERARCHY, "Hierarchy", 23877, 22728, 1095, 591); // o (i, cr)
+selectGraphicalView(PAResourceOtoP.PAViews_HIERARCHY, 2941569, 2943819); // p (q, cr)
+// Instance Tree: 'Leaf Cells - Leaf Cells ex_stage_i'
+selectView(PAResourceOtoP.PAViews_HIERARCHY, "Hierarchy", 10460, 10468, 1095, 591); // o (i, cr)
+// HMemoryUtils.trashcanNow. Engine heap size: 5,194 MB. GUI used memory: 171 MB. Current time: 2/6/24, 6:27:00 PM UTC
+selectGraphicalView(PAResourceOtoP.PAViews_HIERARCHY, 2829643, 2827112); // p (q, cr)
+// HMemoryUtils.trashcanNow. Engine heap size: 5,194 MB. GUI used memory: 178 MB. Current time: 2/6/24, 6:27:03 PM UTC
+selectGraphicalView(PAResourceOtoP.PAViews_HIERARCHY, 2834078, 2705630); // p (q, cr)
+// HMemoryUtils.trashcanNow. Engine heap size: 5,194 MB. GUI used memory: 197 MB. Current time: 2/6/24, 6:27:05 PM UTC
+// HMemoryUtils.trashcanNow. Engine heap size: 5,194 MB. GUI used memory: 201 MB. Current time: 2/6/24, 6:27:05 PM UTC
+// HMemoryUtils.trashcanNow. Engine heap size: 5,194 MB. GUI used memory: 160 MB. Current time: 2/6/24, 6:27:06 PM UTC
+selectGraphicalView(PAResourceOtoP.PAViews_HIERARCHY, 2810033, 2513275); // p (q, cr)
+// Instance Tree: 'Cell - FC_CORE.lFC_CORE'
+selectView(PAResourceOtoP.PAViews_HIERARCHY, "Hierarchy", 4441, 3972, 1095, 591); // o (i, cr)
+// HMemoryUtils.trashcanNow. Engine heap size: 5,195 MB. GUI used memory: 204 MB. Current time: 2/6/24, 6:27:06 PM UTC
+selectGraphicalView(PAResourceOtoP.PAViews_HIERARCHY, 3154881, 2561996); // p (q, cr)
+// HMemoryUtils.trashcanNow. Engine heap size: 5,195 MB. GUI used memory: 160 MB. Current time: 2/6/24, 6:27:10 PM UTC
+selectGraphicalView(PAResourceOtoP.PAViews_HIERARCHY, 3222585, 2743595); // p (q, cr)
+selectGraphicalView(PAResourceOtoP.PAViews_HIERARCHY, 3377608, 2727776); // p (q, cr)
+// Instance Tree: 'Cell - cs_registers_i'
+selectView(PAResourceOtoP.PAViews_HIERARCHY, "Hierarchy", 5338, 4311, 1095, 591); // o (i, cr)
+// PAPropertyPanels.initPanels (cs_registers_i (riscv_cs_registers)) elapsed time: 0.2s
+selectGraphicalView(PAResourceOtoP.PAViews_HIERARCHY, 3645261, 2830914); // p (q, cr)
+// HMemoryUtils.trashcanNow. Engine heap size: 5,195 MB. GUI used memory: 161 MB. Current time: 2/6/24, 6:27:15 PM UTC
+// HMemoryUtils.trashcanNow. Engine heap size: 5,380 MB. GUI used memory: 161 MB. Current time: 2/6/24, 6:27:23 PM UTC
+// HMemoryUtils.trashcanNow. Engine heap size: 5,380 MB. GUI used memory: 161 MB. Current time: 2/6/24, 6:27:26 PM UTC
+// Elapsed time: 13 seconds
+selectGraphicalView(PAResourceOtoP.PAViews_HIERARCHY, 3092239, 2438768); // p (q, cr)
+// Instance Tree: 'Cell - fc_subsystem_i'
+selectView(PAResourceOtoP.PAViews_HIERARCHY, "Hierarchy", 1448, 1142, 1095, 591); // o (i, cr)
+// [Engine Memory]: 5,380 MB (+8898kb) [00:57:36]
+selectGraphicalView(PAResourceOtoP.PAViews_HIERARCHY, 2940617, 2539138); // p (q, cr)
+// Instance Tree: 'Cell - ex_stage_i'
+selectView(PAResourceOtoP.PAViews_HIERARCHY, "Hierarchy", 1377, 1189, 1095, 591); // o (i, cr)
+selectGraphicalView(PAResourceOtoP.PAViews_HIERARCHY, 2923928, 2541748); // p (q, cr)
+// HMemoryUtils.trashcanNow. Engine heap size: 5,380 MB. GUI used memory: 161 MB. Current time: 2/6/24, 6:27:34 PM UTC
+// HMemoryUtils.trashcanNow. Engine heap size: 5,380 MB. GUI used memory: 186 MB. Current time: 2/6/24, 6:27:40 PM UTC
+selectGraphicalView(PAResourceOtoP.PAViews_HIERARCHY, 3137164, 2710692); // p (q, cr)
+selectGraphicalView(PAResourceOtoP.PAViews_HIERARCHY, 3187159, 2608193); // p (q, cr)
+selectGraphicalView(PAResourceOtoP.PAViews_HIERARCHY, 3179566, 2519925); // p (q, cr)
+// Instance Tree: 'Cell - FC_CORE.lFC_CORE'
+selectView(PAResourceOtoP.PAViews_HIERARCHY, "Hierarchy", 3350, 2655, 1095, 591); // o (i, cr)
+// [GUI Memory]: 239 MB (+8447kb) [00:57:53]
+selectGraphicalView(PAResourceOtoP.PAViews_HIERARCHY, 3164380, 2580669); // p (q, cr)
+// Instance Tree: 'Cell - registers_i'
+selectView(PAResourceOtoP.PAViews_HIERARCHY, "Hierarchy", 3334, 2719, 1095, 591); // o (i, cr)
+// [GUI Memory]: 252 MB (+145kb) [00:57:54]
+// HMemoryUtils.trashcanNow. Engine heap size: 5,380 MB. GUI used memory: 163 MB. Current time: 2/6/24, 6:27:46 PM UTC
+selectGraphicalView(PAResourceOtoP.PAViews_HIERARCHY, 3149194, 2630973); // p (q, cr)
+// Instance Tree: 'Leaf Cells - Leaf Cells riscv_register_file_i'
+selectView(PAResourceOtoP.PAViews_HIERARCHY, "Hierarchy", 3318, 2772, 1095, 591); // o (i, cr)
+selectGraphicalView(PAResourceOtoP.PAViews_HIERARCHY, 3156787, 2596804); // p (q, cr)
+// Instance Tree: 'Cell - riscv_register_file_i'
+selectView(PAResourceOtoP.PAViews_HIERARCHY, "Hierarchy", 3326, 2736, 1095, 591); // o (i, cr)
+selectGraphicalView(PAResourceOtoP.PAViews_HIERARCHY, 3159635, 2652802); // p (q, cr)
+// Instance Tree: 'Leaf Cells - Leaf Cells riscv_register_file_i'
+selectView(PAResourceOtoP.PAViews_HIERARCHY, "Hierarchy", 3329, 2795, 1095, 591); // o (i, cr)
+// HMemoryUtils.trashcanNow. Engine heap size: 5,381 MB. GUI used memory: 164 MB. Current time: 2/6/24, 6:28:01 PM UTC
+// HMemoryUtils.trashcanNow. Engine heap size: 5,381 MB. GUI used memory: 163 MB. Current time: 2/6/24, 6:28:05 PM UTC
+// Elapsed time: 16 seconds
+selectGraphicalView(PAResourceOtoP.PAViews_HIERARCHY, 3149827, 2663242); // p (q, cr)
+// HMemoryUtils.trashcanNow. Engine heap size: 5,381 MB. GUI used memory: 163 MB. Current time: 2/6/24, 6:28:09 PM UTC
+selectGraphicalView(PAResourceOtoP.PAViews_HIERARCHY, 3379517, 2728417); // p (q, cr)
+selectGraphicalView(PAResourceOtoP.PAViews_HIERARCHY, 3542133, 2904321); // p (q, cr)
+selectGraphicalView(PAResourceOtoP.PAViews_HIERARCHY, 3555772, 2755227); // p (q, cr)
+// Instance Tree: 'Cell - fifo_i'
+selectView(PAResourceOtoP.PAViews_HIERARCHY, "Hierarchy", 18966, 14696, 1095, 591); // o (i, cr)
+// HMemoryUtils.trashcanNow. Engine heap size: 5,381 MB. GUI used memory: 214 MB. Current time: 2/6/24, 6:28:13 PM UTC
+selectGraphicalView(PAResourceOtoP.PAViews_HIERARCHY, 3551085, 2756727, false, false, false, true, false); // p (q, cr) - Popup Trigger
+// Instance Tree: 'Cell - fifo_i'
+selectView(PAResourceOtoP.PAViews_HIERARCHY, "Hierarchy", 18941, 14704, 1095, 591); // o (i, cr)
+selectView(PAResourceOtoP.PAViews_HIERARCHY, "Hierarchy", 18941, 14704, 1095, 591, false, false, false, true, false); // o (i, cr) - Popup Trigger
+selectMenu(PAResourceOtoP.PrimitivesMenu_HIGHLIGHT_LEAF_CELLS, "Highlight Leaf Cells"); // af (ao, cr)
+selectMenu(PAResourceQtoS.SelectMenu_HIGHLIGHT, "Highlight"); // af (ao, cr)
+selectMenu(PAResourceOtoP.PAGraphicalView_VIEW, "View"); // af (ao, cr)
+selectMenu(PAResourceOtoP.PAGraphicalView_VIEW, "View"); // af (ao, cr)
+selectMenu(RDIResource.GraphicalView_SELECT, "Select"); // af (ao, cr)
+selectMenuItem(PAResourceCommand.PACommandNames_GOTO_INSTANTIATION, "Go to Source"); // ai (ao, cr)
+// Run Command: PAResourceCommand.PACommandNames_GOTO_INSTANTIATION
+selectCodeEditor("riscv_prefetch_buffer.sv", 49, 18); // ch (w, cr)
+selectCodeEditor("riscv_prefetch_buffer.sv", 49, 18, false, false, false, false, true); // ch (w, cr) - Double Click
+selectCodeEditor("riscv_prefetch_buffer.sv", 49, 18, false, false, false, true, false); // ch (w, cr) - Popup Trigger
+selectCodeEditor("riscv_prefetch_buffer.sv", 583, 90); // ch (w, cr)
+// WARNING: HEventQueue.dispatchEvent() is taking  1873 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1963 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1869 ms.
+// Elapsed time: 19 seconds
+setText("PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE_SEARCH_FIELD", "riscv_prefetch"); // OverlayTextField (C, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, xilinx_pulp (xilinx_pulp.v), i_pulp : pulp (pulp.sv), cluster_domain_i : cluster_domain (cluster_domain.sv), cluster_i : pulp_cluster (pulp_cluster.sv), CORE[0].core_region_i : core_region (core_region.sv), CL_CORE.RISCV_CORE : riscv_core (riscv_core.sv), if_stage_i : riscv_if_stage (riscv_if_stage.sv), prefetch_32.prefetch_buffer_i : riscv_prefetch_buffer (riscv_prefetch_buffer.sv), fifo_i : riscv_fetch_fifo (riscv_fetch_fifo.sv)]", 18, false); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, xilinx_pulp (xilinx_pulp.v), i_pulp : pulp (pulp.sv), cluster_domain_i : cluster_domain (cluster_domain.sv), cluster_i : pulp_cluster (pulp_cluster.sv), CORE[0].core_region_i : core_region (core_region.sv), CL_CORE.RISCV_CORE : riscv_core (riscv_core.sv), if_stage_i : riscv_if_stage (riscv_if_stage.sv), prefetch_32.prefetch_buffer_i : riscv_prefetch_buffer (riscv_prefetch_buffer.sv), fifo_i : riscv_fetch_fifo (riscv_fetch_fifo.sv)]", 18, false, false, false, false, true, false); // B (F, cr) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // af (ao, cr)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // af (ao, cr)
+selectMenuItem(PAResourceCommand.PACommandNames_SET_AS_TOP, "Set as Top"); // ai (ao, cr)
+// Run Command: PAResourceCommand.PACommandNames_SET_AS_TOP
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: set_property top riscv_fetch_fifo [current_fileset] 
+// TclEventType: DG_GRAPH_STALE
+// bB (cr):  Set as Top : addNotify
+dismissDialog("Set as Top"); // bB (cr)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design, Schematic]", 27, false); // u (O, cr)
+// Run Command: PAResourceCommand.PACommandNames_SCHEMATIC
+// Schematic: addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 5,416 MB. GUI used memory: 167 MB. Current time: 2/6/24, 6:29:00 PM UTC
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// WARNING: HEventQueue.dispatchEvent() is taking  1929 ms.
+// HOptionPane Warning: 'A background task is running. Please wait until it completes and try again. (Background Task)'
+closeView(PAResourceOtoP.PAViews_SCHEMATIC, "Schematic"); // f (i, cr)
+selectButton("OptionPane.button", "OK"); // JButton (A, G)
+// [Engine Memory]: 5,664 MB (+15230kb) [00:59:16]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, xilinx_pulp (xilinx_pulp.v), i_pulp : pulp (pulp.sv), cluster_domain_i : cluster_domain (cluster_domain.sv), cluster_i : pulp_cluster (pulp_cluster.sv), CORE[0].core_region_i : core_region (core_region.sv), CL_CORE.RISCV_CORE : riscv_core (riscv_core.sv), if_stage_i : riscv_if_stage (riscv_if_stage.sv), prefetch_32.prefetch_buffer_i : riscv_prefetch_buffer (riscv_prefetch_buffer.sv), fifo_i : riscv_fetch_fifo (riscv_fetch_fifo.sv)]", 18, false, false, false, false, true, false); // B (F, cr) - Popup Trigger
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, cr)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// A (cr): Run Synthesis: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// bB (cr):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Run Synthesis"); // A (cr)
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// f (cr): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bB (cr):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (cr)
+// Tcl Message: launch_runs synth_1 -jobs 24 
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Tue Feb  6 18:29:18 2024] Launched synth_1... Run output will be captured here: /home/azafeer/Desktop/test/pulp_A/fpga/pulp/pulp-zcu102.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 6 seconds
+dismissDialog("Starting Design Runs"); // bB (cr)
+// HMemoryUtils.trashcanNow. Engine heap size: 5,436 MB. GUI used memory: 160 MB. Current time: 2/6/24, 6:29:20 PM UTC
+// TclEventType: RUN_STATUS_CHANGE
+// WARNING: HEventQueue.dispatchEvent() is taking  1868 ms.
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// aj (cr): Synthesis Completed: addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 5,428 MB. GUI used memory: 158 MB. Current time: 2/6/24, 6:59:20 PM UTC
+// Elapsed time: 2347 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_GOTO_NETLIST_DESIGN, "Open Synthesized Design"); // a (Q, aj)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aj)
+// Run Command: PAResourceCommand.PACommandNames_GOTO_NETLIST_DESIGN
+// bB (cr):  Reloading design : addNotify
+// TclEventType: DESIGN_CLOSE
+// HMemoryUtils.trashcanNow. Engine heap size: 5,390 MB. GUI used memory: 146 MB. Current time: 2/6/24, 7:08:29 PM UTC
+// Engine heap size: 5,390 MB. GUI used memory: 147 MB. Current time: 2/6/24, 7:08:29 PM UTC
+// WARNING: HEventQueue.dispatchEvent() is taking  2124 ms.
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: close_design 
+// TclEventType: DESIGN_CLOSE
+// Tcl Message: close_design: Time (s): cpu = 00:00:08 ; elapsed = 00:00:06 . Memory (MB): peak = 10577.793 ; gain = 0.000 ; free physical = 46173 ; free virtual = 80578 
+// Tcl Message: open_run synth_1 -name synth_1 
+// Tcl Message: Design is defaulting to impl run constrset: constrs_1 Design is defaulting to synth run part: xczu9eg-ffvb1156-2-e 
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 5,172 MB. GUI used memory: 89 MB. Current time: 2/6/24, 7:08:38 PM UTC
+// TclEventType: DESIGN_NEW
+// Xgd.load filename: /cad/xilinx/Vivado/2019.2/data/parts/xilinx/zynquplus/devint/zynquplus/xczu9eg/xczu9eg.xgd; ZipEntry: xczu9eg_detail.xgd elapsed time: 1s
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// RouteApi::loadEngineXgd elapsed time: 1.3s
+// Device: addNotify
+// DeviceView Instantiated
+// WARNING: HEventQueue.dispatchEvent() is taking  2183 ms.
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 10577.793 ; gain = 0.000 ; free physical = 46151 ; free virtual = 80556 
+// Tcl Message: INFO: [Netlist 29-17] Analyzing 75 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds INFO: [Project 1-479] Netlist was created with Vivado 2019.2 INFO: [Project 1-570] Preparing netlist for logic optimization 
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: Parsing XDC File [/home/azafeer/Desktop/test/pulp_A/fpga/pulp-zcu102/constraints/zcu102.xdc] 
+// Tcl Message: INFO: [Timing 38-35] Done setting XDC timing constraints. [/home/azafeer/Desktop/test/pulp_A/fpga/pulp-zcu102/constraints/zcu102.xdc:25] 
+// Tcl Message: INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [/home/azafeer/Desktop/test/pulp_A/fpga/pulp-zcu102/constraints/zcu102.xdc:61] 
+// Tcl Message: INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [/home/azafeer/Desktop/test/pulp_A/fpga/pulp-zcu102/constraints/zcu102.xdc:61] 
+// Tcl Message: INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [/home/azafeer/Desktop/test/pulp_A/fpga/pulp-zcu102/constraints/zcu102.xdc:61] 
+// Tcl Message: INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [/home/azafeer/Desktop/test/pulp_A/fpga/pulp-zcu102/constraints/zcu102.xdc:65] 
+// Tcl Message: INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [/home/azafeer/Desktop/test/pulp_A/fpga/pulp-zcu102/constraints/zcu102.xdc:65] 
+// Tcl Message: INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [/home/azafeer/Desktop/test/pulp_A/fpga/pulp-zcu102/constraints/zcu102.xdc:68] 
+// Tcl Message: INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [/home/azafeer/Desktop/test/pulp_A/fpga/pulp-zcu102/constraints/zcu102.xdc:68] 
+// Tcl Message: INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [/home/azafeer/Desktop/test/pulp_A/fpga/pulp-zcu102/constraints/zcu102.xdc:93] 
+// Tcl Message: INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [/home/azafeer/Desktop/test/pulp_A/fpga/pulp-zcu102/constraints/zcu102.xdc:93] 
+// Tcl Message: INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [/home/azafeer/Desktop/test/pulp_A/fpga/pulp-zcu102/constraints/zcu102.xdc:94] 
+// Tcl Message: INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [/home/azafeer/Desktop/test/pulp_A/fpga/pulp-zcu102/constraints/zcu102.xdc:94] 
+// Tcl Message: INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [/home/azafeer/Desktop/test/pulp_A/fpga/pulp-zcu102/constraints/zcu102.xdc:95] 
+// Tcl Message: INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [/home/azafeer/Desktop/test/pulp_A/fpga/pulp-zcu102/constraints/zcu102.xdc:95] 
+// Tcl Message: INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [/home/azafeer/Desktop/test/pulp_A/fpga/pulp-zcu102/constraints/zcu102.xdc:96] 
+// Tcl Message: INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [/home/azafeer/Desktop/test/pulp_A/fpga/pulp-zcu102/constraints/zcu102.xdc:96] 
+// Tcl Message: Finished Parsing XDC File [/home/azafeer/Desktop/test/pulp_A/fpga/pulp-zcu102/constraints/zcu102.xdc] 
+// Tcl Message: INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s). 
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 10577.793 ; gain = 0.000 ; free physical = 46044 ; free virtual = 80450 
+// Tcl Message: INFO: [Project 1-111] Unisim Transformation Summary:   A total of 71 instances were transformed.   IBUF => IBUF (IBUFCTRL, INBUF): 71 instances  
+// Device view-level: 0.0
+// Tcl Message: open_run: Time (s): cpu = 00:00:21 ; elapsed = 00:00:09 . Memory (MB): peak = 10587.793 ; gain = 10.000 ; free physical = 46063 ; free virtual = 80470 
+// S (cr): Critical Messages: addNotify
+// Elapsed time: 16 seconds
+dismissDialog("Reloading design"); // bB (cr)
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (S)
+dismissDialog("Critical Messages"); // S (cr)
+// RouteApi::initDelayMediator elapsed time: 3.3s
+// RouteApi: Init Delay Mediator Swing Worker Finished
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design, Schematic]", 27, false); // u (O, cr)
+// Run Command: PAResourceCommand.PACommandNames_SCHEMATIC
+// Schematic: addNotify
+// u:  Generate Schematic : addNotify
+dismissDialog("Generate Schematic"); // u
+// Tcl Command: 'rdi::info_commands {all*}'
+// Tcl Command: 'rdi::info_commands {all_*}'
+// Tcl Command: 'rdi::info_commands {all_ffs*}'
+// Elapsed time: 11 seconds
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "all_ffs", true); // aF (ac, cr)
+// Tcl Command: 'all_ffs'
+// Tcl Command: 'all_ffs'
+// Tcl Message: all_ffs 
+// Elapsed time: 78 seconds
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, (String) null); // aF (ac, cr)
+expandTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[riscv_fetch_fifo, Leaf Cells (852)]", 2); // bD (O, cr)
+collapseTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[riscv_fetch_fifo, Leaf Cells (852)]", 2); // bD (O, cr)
+expandTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[riscv_fetch_fifo, Leaf Cells (852)]", 2); // bD (O, cr)
+// PAPropertyPanels.initPanels (addr_Q_reg[0][23] (FDCE)) elapsed time: 4.8s
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[riscv_fetch_fifo, Leaf Cells (852), addr_Q_reg[0][23] (FDCE)]", 160, false); // bD (O, cr)
+// WARNING: HEventQueue.dispatchEvent() is taking  4873 ms.
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[riscv_fetch_fifo, Leaf Cells (852), addr_Q_reg[0][23] (FDCE)]", 160, false); // bD (O, cr)
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[riscv_fetch_fifo, Leaf Cells (852), addr_Q_reg[0][24] (FDCE)]", 161, false); // bD (O, cr)
+// Tcl Command: 'rdi::info_commands {se*}'
+// Tcl Command: 'rdi::info_commands {se*}'
+// Tcl Command: 'rdi::info_commands {set*}'
+// Elapsed time: 12 seconds
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, (String) null); // aF (ac, cr)
+// Elapsed time: 138 seconds
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "set reg_count [llength [lindex [all_ffs]]]", true); // aF (ac, cr)
+// Tcl Command: 'set reg_count [llength [lindex [all_ffs]]]'
+// Tcl Command: 'set reg_count [llength [lindex [all_ffs]]]'
+// Tcl Message: set reg_count [llength [lindex [all_ffs]]] 
+// Tcl Message: 200 
+// Elapsed time: 40 seconds
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, (String) null); // aF (ac, cr)
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, (String) null); // aF (ac, cr)
+// Tcl Command: '#create FDRE cell; #create a MUX_cell; #create net mux to q_reg/D; #create net ff/Q to mux/I1; #create net mux_sel_pin; ; ; set reg_count [llength [lindex [all_ffs]]]; ; set reg_list [lindex [all_ffs]]; ; set input_nets [get_nets -of_objects [get_pins -of_objects $reg_list -filter {REF_PIN_NAME=~D}]]; ; for {set...'
+// Tcl Command: '#create FDRE cell'
+// Tcl Command: '#create a MUX_cell'
+// Tcl Command: '#create net mux to q_reg/D'
+// Tcl Command: '#create net ff/Q to mux/I1'
+// Tcl Command: '#create net mux_sel_pin'
+// Tcl Command: ''
+// Tcl Command: ''
+// Tcl Command: 'set reg_count [llength [lindex [all_ffs]]]'
+// Tcl Command: ''
+// Tcl Command: 'set reg_list [lindex [all_ffs]]'
+// Tcl Command: ''
+// Tcl Command: 'set input_nets [get_nets -of_objects [get_pins -of_objects $reg_list -filter {REF_PIN_NAME=~D}]]'
+// Tcl Command: ''
+// Tcl Command: 'for {set x 0} {$x< $reg_count} {incr x} { create_cell -reference FDRE [lindex $reg_list $x]_fdre }'
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: #create FDRE cell 
+// Tcl Message: #create a MUX_cell 
+// Tcl Message: #create net mux to q_reg/D 
+// Tcl Message: #create net ff/Q to mux/I1 
+// Tcl Message: #create net mux_sel_pin 
+// Tcl Message: set reg_count [llength [lindex [all_ffs]]] 
+// Tcl Message: 200 
+// Tcl Message: set reg_list [lindex [all_ffs]] 
+// Tcl Message: set input_nets [get_nets -of_objects [get_pins -of_objects $reg_list -filter {REF_PIN_NAME=~D}]] 
+// Tcl Message: for {set x 0} {$x< $reg_count} {incr x} { create_cell -reference FDRE [lindex $reg_list $x]_fdre } 
+// TclEventType: NETLIST_UPDATE
+// bB (cr):  Tcl Command Line : addNotify
+// TclEventType: NETLIST_UPDATE
+// Tcl Command: ''
+// Tcl Command: 'for {set x 0} {$x< $reg_count} {incr x} { create_cell -reference MUXF7 [lindex $reg_list $x]_mux }'
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: for {set x 0} {$x< $reg_count} {incr x} { create_cell -reference MUXF7 [lindex $reg_list $x]_mux } 
+// TclEventType: NETLIST_UPDATE
+// Tcl Command: ''
+// Tcl Command: 'for {set x 0} {$x< $reg_count} {incr x} { create_net [lindex $reg_list $x]_mux_sel [lindex $reg_list $x]_muxO_Din [lindex $reg_list $x]_FDREQ_MUXI }'
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: for {set x 0} {$x< $reg_count} {incr x} { create_net [lindex $reg_list $x]_mux_sel [lindex $reg_list $x]_muxO_Din [lindex $reg_list $x]_FDREQ_MUXI } 
+// TclEventType: NETLIST_UPDATE
+// Tcl Command: ''
+// Tcl Command: '#connect net from output of fdre to i1 of mux'
+// Tcl Command: 'for {set x 0} {$x< $reg_count} {incr x} { connect_net -hierarchical -net [get_nets [lindex $reg_list $x]_FDREQ_MUXI] -objects  [list [get_pins -of_objects [get_cells [lindex $reg_list $x]_fdre] -filter {REF_PIN_NAME =~Q}] [get_pins -of_objects [get_cells [lindex $reg_list $x]_mux] -filter {REF_PIN_NAME =~I1}]] }'
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: #connect net from output of fdre to i1 of mux 
+// Tcl Message: for {set x 0} {$x< $reg_count} {incr x} { connect_net -hierarchical -net [get_nets [lindex $reg_list $x]_FDREQ_MUXI] -objects  [list [get_pins -of_objects [get_cells [lindex $reg_list $x]_fdre] -filter {REF_PIN_NAME =~Q}] [get_pins -of_objects [get_cells [lindex $reg_list $x]_mux] -filter {REF_PIN_NAME =~I1}]] } 
+// TclEventType: NETLIST_UPDATE
+// Tcl Command: ''
+// Tcl Command: '#connect the data net to the input of fdre and i0 of mux'
+// Tcl Command: 'for {set x 0} {$x< $reg_count} {incr x} { connect_net -hierarchical -net [get_nets [lindex $input_nets $x]] -objects [list [get_pins -of_objects [get_cells [lindex $reg_list $x]_mux] -filter {REF_PIN_NAME=~I0}] [get_pins -of_objects [get_cells [lindex $reg_list $x]_fdre] -filter {REF_PIN_NAME =~D}]] }'
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: #connect the data net to the input of fdre and i0 of mux 
+// Tcl Message: for {set x 0} {$x< $reg_count} {incr x} { connect_net -hierarchical -net [get_nets [lindex $input_nets $x]] -objects [list [get_pins -of_objects [get_cells [lindex $reg_list $x]_mux] -filter {REF_PIN_NAME=~I0}] [get_pins -of_objects [get_cells [lindex $reg_list $x]_fdre] -filter {REF_PIN_NAME =~D}]] } 
+// TclEventType: NETLIST_UPDATE
+// Tcl Command: ''
+// Tcl Command: '#disconnect the data net to the input of the q_reg inorder to connect the output of mux/O to input of q_reg/D'
+// Tcl Command: 'for {set x 0} {$x< $reg_count} {incr x} { disconnect_net -net [get_nets [lindex $input_nets $x]]  -objects [list [get_pins -of_objects [lindex $reg_list $x] -filter {REF_PIN_NAME=~D}] ] }'
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: #disconnect the data net to the input of the q_reg inorder to connect the output of mux/O to input of q_reg/D 
+// Tcl Message: for {set x 0} {$x< $reg_count} {incr x} { disconnect_net -net [get_nets [lindex $input_nets $x]]  -objects [list [get_pins -of_objects [lindex $reg_list $x] -filter {REF_PIN_NAME=~D}] ] } 
+// TclEventType: NETLIST_UPDATE
+// Tcl Command: ''
+// Tcl Command: '#connect the output port of mux/O to the input port of q_reg/D'
+// Tcl Command: 'for {set x 0} {$x< $reg_count} {incr x} { connect_net -net [get_nets [lindex $reg_list $x]_muxO_Din]  -objects [list [get_pins -of_objects [lindex $reg_list $x] -filter {REF_PIN_NAME=~D}] [get_pins -of_objects [get_cells [lindex $reg_list $x]_mux] -filter {REF_PIN_NAME=~O}]] } '
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: #connect the output port of mux/O to the input port of q_reg/D 
+// Tcl Message: for {set x 0} {$x< $reg_count} {incr x} { connect_net -net [get_nets [lindex $reg_list $x]_muxO_Din]  -objects [list [get_pins -of_objects [lindex $reg_list $x] -filter {REF_PIN_NAME=~D}] [get_pins -of_objects [get_cells [lindex $reg_list $x]_mux] -filter {REF_PIN_NAME=~O}]] }  
+// TclEventType: NETLIST_UPDATE
+// Tcl Command: ''
+// Tcl Command: '#connect the clock to the fdre/C'
+// Tcl Command: 'for {set x 0} {$x< $reg_count} {incr x} {  connect_net -hierarchical -net [get_nets -of_objects [get_pins -of_objects [lindex $reg_list $x] -filter {REF_PIN_NAME=~C}]] -objects [list [get_pins -of_objects [get_cells [lindex $reg_list $x]_fdre] -filter {REF_PIN_NAME =~C}]] }'
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: #connect the clock to the fdre/C 
+// Tcl Message: for {set x 0} {$x< $reg_count} {incr x} {  connect_net -hierarchical -net [get_nets -of_objects [get_pins -of_objects [lindex $reg_list $x] -filter {REF_PIN_NAME=~C}]] -objects [list [get_pins -of_objects [get_cells [lindex $reg_list $x]_fdre] -filter {REF_PIN_NAME =~C}]] } 
+// TclEventType: NETLIST_UPDATE
+// Tcl Command: ''
+// Tcl Command: '#connect rst pin to rst'
+// Tcl Command: 'for {set x 0} {$x< $reg_count} {incr x} { connect_net -hierarchical -net [get_nets -of_objects [get_pins -of_objects [lindex $reg_list $x] -filter {REF_PIN_NAME=~CLR || REF_PIN_NAME=~R}]] -objects [list [get_pins -of_objects [get_cells [lindex $reg_list $x]_fdre] -filter {REF_PIN_NAME =~R}]] }'
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: #connect rst pin to rst 
+// Tcl Message: for {set x 0} {$x< $reg_count} {incr x} { connect_net -hierarchical -net [get_nets -of_objects [get_pins -of_objects [lindex $reg_list $x] -filter {REF_PIN_NAME=~CLR || REF_PIN_NAME=~R}]] -objects [list [get_pins -of_objects [get_cells [lindex $reg_list $x]_fdre] -filter {REF_PIN_NAME =~R}]] } 
+// TclEventType: NETLIST_UPDATE
+// Tcl Command: ''
+// Tcl Command: '#connect the mux_sel net to mux/S pin and FDRE/CE pin for data propagation purposes'
+// Tcl Command: 'for {set x 0} {$x< $reg_count} {incr x} { connect_net -hierarchical -net [get_nets [lindex $reg_list $x]_mux_sel] -objects [list [get_pins -of_objects [get_cells [lindex $reg_list $x]_mux] -filter {REF_PIN_NAME=~S}] [get_pins -of_objects [get_cells [lindex $reg_list $x]_fdre] -filter {REF_PIN_NAME =~CE}]] }'
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: #connect the mux_sel net to mux/S pin and FDRE/CE pin for data propagation purposes 
+// Tcl Message: for {set x 0} {$x< $reg_count} {incr x} { connect_net -hierarchical -net [get_nets [lindex $reg_list $x]_mux_sel] -objects [list [get_pins -of_objects [get_cells [lindex $reg_list $x]_mux] -filter {REF_PIN_NAME=~S}] [get_pins -of_objects [get_cells [lindex $reg_list $x]_fdre] -filter {REF_PIN_NAME =~CE}]] } 
+// TclEventType: NETLIST_UPDATE
+// Tcl Command: ''
+// Tcl Command: '#make FDRE/D and FDRE/R inverted to make it work as per our logic'
+// Tcl Command: 'for {set x 0} {$x< $reg_count} {incr x} { set_property IS_INVERTED 1 [get_pins -of_objects [get_cells [lindex $reg_list $x]_fdre] -filter {REF_PIN_NAME =~D}] }'
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: #make FDRE/D and FDRE/R inverted to make it work as per our logic 
+// Tcl Message: for {set x 0} {$x< $reg_count} {incr x} { set_property IS_INVERTED 1 [get_pins -of_objects [get_cells [lindex $reg_list $x]_fdre] -filter {REF_PIN_NAME =~D}] } 
+// TclEventType: NETLIST_UPDATE
+// Tcl Command: ''
+// Tcl Command: '#create a port'
+// Tcl Command: 'create_port -direction OUT  -from 0 -to $reg_count made_up_gnd_port'
+// TclEventType: SIGNAL_BUS_ADD
+// Tcl Command: ''
+// Tcl Command: '#connect the port to mux_sel net'
+// Tcl Command: 'for {set x 0} {$x< $reg_count} {incr x} { connect_net -hierarchical -net [get_nets [lindex $reg_list $x]_mux_sel] -objects [list [get_ports made_up_gnd_port[$x]]] }'
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: #create a port 
+// Tcl Message: create_port -direction OUT  -from 0 -to $reg_count made_up_gnd_port 
+// Tcl Message: #connect the port to mux_sel net 
+// Tcl Message: for {set x 0} {$x< $reg_count} {incr x} { connect_net -hierarchical -net [get_nets [lindex $reg_list $x]_mux_sel] -objects [list [get_ports made_up_gnd_port[$x]]] } 
+// TclEventType: NETLIST_UPDATE
+// Tcl Command: ''
+// Tcl Command: '#pulldown the gnd port temperarily'
+// Tcl Command: 'for {set x 0} {$x< $reg_count} {incr x} { set_property PULLDOWN TRUE [get_ports made_up_gnd_port[$x]] }'
+// TclEventType: SIGNAL_MODIFY
+// Tcl Message: #pulldown the gnd port temperarily 
+// Tcl Message: for {set x 0} {$x< $reg_count} {incr x} { set_property PULLDOWN TRUE [get_ports made_up_gnd_port[$x]] } 
+// TclEventType: SIGNAL_MODIFY
+// HMemoryUtils.trashcanNow. Engine heap size: 5,352 MB. GUI used memory: 156 MB. Current time: 2/6/24, 7:15:00 PM UTC
+// Elapsed time: 71 seconds
+dismissDialog("Tcl Command Line"); // bB (cr)
+// Elapsed time: 361 seconds
+closeView(PAResourceOtoP.PAViews_SCHEMATIC, "Schematic"); // f
+selectTab((HResource) null, (HResource) null, "Sources", 0); // aL (aI, cr)
+selectTab((HResource) null, (HResource) null, "Netlist", 1); // aL (aI, cr)
+selectButton(RDIResource.HTree_COLLAPSE_ALL, "Netlist_collapse_all"); // l (f, cr)
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[riscv_fetch_fifo]", 0, true, false, false, false, true, false); // bD (O, cr) - Popup Trigger - Node
+selectMenu(PAResourceItoN.NetlistTreeView_FLOORPLANNING, "Floorplanning"); // af (ao, cr)
+selectMenuItem(PAResourceCommand.PACommandNames_SCHEMATIC, "Schematic"); // ai (ao, cr)
+// Run Command: PAResourceCommand.PACommandNames_SCHEMATIC
+// Schematic: addNotify
+// u:  Generate Schematic : addNotify
+dismissDialog("Generate Schematic"); // u
+// Elapsed time: 14 seconds
+expandTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[riscv_fetch_fifo, Leaf Cells (1252)]", 2); // bD (O, cr)
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[riscv_fetch_fifo, Leaf Cells (1252), addr_Q[0][3]_i_2 (LUT4)]", 12, false); // bD (O, cr)
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[riscv_fetch_fifo, Leaf Cells (1252), addr_Q_reg[0][1]_fdre (FDRE)]", 139, false); // bD (O, cr)
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[riscv_fetch_fifo, Leaf Cells (1252), addr_Q_reg[0][1]_mux (MUXF7)]", 140, false); // bD (O, cr)
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[riscv_fetch_fifo, Leaf Cells (1252), addr_Q_reg[0][2] (FDCE)]", 141, false); // bD (O, cr)
+// PAPropertyPanels.initPanels (addr_Q_reg[0][2]_muxO_Din) elapsed time: 0.2s
+// Elapsed time: 22 seconds
+selectTab(RDIResource.PropertiesView_TABBED_PANE, (HResource) null, "Connectivity", 2); // i (c, cr)
+// Elapsed time: 28 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (O, cr)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design, Report Clock Networks]", 20, false); // u (O, cr)
+// Run Command: PAResourceCommand.PACommandNames_REPORT_CLOCK_NETWORKS
+// a (cr): Report Clock Networks: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (a)
+dismissDialog("Report Clock Networks"); // a (cr)
+// bB (cr):  Report Clock Networks : addNotify
+// Tcl Message: report_clock_networks -name {network_1} 
+// Tcl Message: INFO: [Timing 38-35] Done setting XDC timing constraints. 
+// TclEventType: TIMING_CLOCK_NETWORKS_UPDATED
+dismissDialog("Report Clock Networks"); // bB (cr)
+expandTree(PAResourceAtoD.ClockNetworksReportView_CLOCK_NETWORK_TREE, "[top objects, Unconstrained]", 0); // j (O, cr)
+selectTree(PAResourceAtoD.ClockNetworksReportView_CLOCK_NETWORK_TREE, "[top objects, Unconstrained, clk (0.00 MHz) (drives 400 loads)]", 1); // j (O, cr)
+// Elapsed time: 10 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design, Report Timing Summary]", 19, false); // u (O, cr)
+// Run Command: PAResourceCommand.PACommandNames_REPORT_TIMING_SUMMARY
+// aJ (cr): Report Timing Summary: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aJ)
+dismissDialog("Report Timing Summary"); // aJ (cr)
+// TclEventType: TIMING_SUMMARY_UPDATED
+// Tcl Message: report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1 
+// Tcl Message: INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -2, Temperature grade: E, Delay Type: min_max. INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 8 CPUs 
+// bB (cr):  Report Timing Summary : addNotify
+dismissDialog("Report Timing Summary"); // bB (cr)
+// Elapsed time: 16 seconds
+expandTree(PAResourceItoN.NavigableTimingReportTab_TIMING_REPORT_NAVIGATION_TREE, "[Root, Unconstrained Paths]", 8); // a (O, cr)
+expandTree(PAResourceItoN.NavigableTimingReportTab_TIMING_REPORT_NAVIGATION_TREE, "[Root, Check Timing]", 3); // a (O, cr)
+selectTree(PAResourceItoN.NavigableTimingReportTab_TIMING_REPORT_NAVIGATION_TREE, "[Root, Check Timing, constant_clock]", 5, false); // a (O, cr)
+selectTree(PAResourceItoN.NavigableTimingReportTab_TIMING_REPORT_NAVIGATION_TREE, "[Root, Check Timing, no_input_delay]", 8, false); // a (O, cr)
+selectTree(PAResourceItoN.NavigableTimingReportTab_TIMING_REPORT_NAVIGATION_TREE, "[Root, Check Timing, no_output_delay]", 9, false); // a (O, cr)
+collapseTree(PAResourceItoN.NavigableTimingReportTab_TIMING_REPORT_NAVIGATION_TREE, "[Root, Check Timing]", 3); // a (O, cr)
+selectTree(PAResourceItoN.NavigableTimingReportTab_TIMING_REPORT_NAVIGATION_TREE, "[Root, Timer Settings]", 1, false); // a (O, cr)
+collapseTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[riscv_fetch_fifo, Nets (1579), addr_n[0]]", 3); // bD (O, cr)
+selectTree(PAResourceItoN.NavigableTimingReportTab_TIMING_REPORT_NAVIGATION_TREE, "[Root, Check Timing]", 3, true); // a (O, cr) - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design, Report Clock Interaction]", 21, false); // u (O, cr)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design, Report Clock Networks]", 20, false); // u (O, cr)
+// Run Command: PAResourceCommand.PACommandNames_REPORT_CLOCK_NETWORKS
+// a (cr): Report Clock Networks: addNotify
+setText(PAResourceQtoS.ReportClockNetworksDialog_RESULT_NAME, "network_1"); // ac (Q, a)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (a)
+// 'cg' command handler elapsed time: 4 seconds
+// TclEventType: TIMING_CLOCK_NETWORKS_UPDATED
+dismissDialog("Report Clock Networks"); // a (cr)
+// Tcl Message: report_clock_networks -name {network_1(1)} 
+// bB (cr):  Report Clock Networks : addNotify
+dismissDialog("Report Clock Networks"); // bB (cr)
+expandTree(PAResourceAtoD.ClockNetworksReportView_CLOCK_NETWORK_TREE, "[top objects, Unconstrained]", 0); // j (O, cr)
+selectTree(PAResourceAtoD.ClockNetworksReportView_CLOCK_NETWORK_TREE, "[top objects, Unconstrained, clk (0.00 MHz) (drives 400 loads)]", 1); // j (O, cr)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design, Constraints Wizard]", 16, false); // u (O, cr)
+// Run Command: PAResourceCommand.PACommandNames_TIMING_CONSTRAINTS_WIZARD
+// d (cr): Define Constraints and Target: addNotify
+selectButton("OptionPane.button", "Define Target"); // JButton (A, G)
+selectTable(PAResourceAtoD.ConstraintsChooserPanel_FILE_TABLE, "false ; zcu102.xdc ; /home/azafeer/Desktop/test/pulp_A/fpga/pulp-zcu102/constraints", 0, "false", 0); // ac (O, d)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (d)
+// 'c' command handler elapsed time: 8 seconds
+dismissDialog("Define Constraints and Target"); // d (cr)
+// TclEventType: FILE_SET_CHANGE
+// WARNING: HEventQueue.dispatchEvent() is taking  3424 ms.
+// Tcl Message: import_files -fileset constrs_1 /home/azafeer/Desktop/test/pulp_A/fpga/pulp-zcu102/constraints/zcu102.xdc 
+// d (cr): Define Constraints and Target: addNotify
+// bB (d):  Add Constraint  : addNotify
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: set_property target_constrs_file /home/azafeer/Desktop/test/pulp_A/fpga/pulp/pulp-zcu102.srcs/constrs_1/imports/constraints/zcu102.xdc [current_fileset -constrset] 
+dismissDialog("Add Constraint"); // bB (d)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design, Constraints Wizard]", 16, false); // u (O, cr)
+// Run Command: PAResourceCommand.PACommandNames_TIMING_CONSTRAINTS_WIZARD
+// Tcl Command: 'create_clock -help'
+// Tcl Command: 'create_clock -help'
+// Tcl Command: 'create_clock -help'
+// Tcl Command: 'create_clock -help'
+// Tcl Command: 'create_clock -help'
+// Tcl Command: 'create_clock -help'
+// Tcl Command: 'create_clock -help'
+// Tcl Command: 'create_clock -help'
+// Tcl Command: 'create_clock -help'
+// Tcl Command: 'create_clock -help'
+// Tcl Command: 'create_clock -help'
+// cC (cr): Timing Constraints Wizard: addNotify
+selectButton("CANCEL", "Cancel"); // JButton (j, cC)
+dismissDialog("Timing Constraints Wizard"); // cC (cr)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design, Edit Timing Constraints]", 17, false); // u (O, cr)
+// Run Command: PAResourceCommand.PACommandNames_TIMING_CONSTRAINTS_WINDOW
+// WARNING: HEventQueue.dispatchEvent() is taking  1095 ms.
+// bB (SwingUtilities.SharedOwnerFrame):  Load Constraints : addNotify
+dismissDialog("Load Constraints"); // bB (SwingUtilities.SharedOwnerFrame)
+selectTable(PAResourceEtoH.EditCreateClockTablePanel_EDIT_CREATE_CLOCK_TABLE, " ;  ;  ;  ;  ;  ;  ;  ;  ; ", 0, (String) null, 0); // f (O, cr)
+// Run Command: PAResourceCommand.PACommandNames_XDC_CREATE_CLOCK
+// bl (cr): Create Clock: addNotify
+setText(PAResourceAtoD.ClockCreationPanel_CLOCK_NAME, "clk"); // ac (n, bl)
+selectButton(PAResourceQtoS.SdcGetObjectsPanel_SPECIFY_CLOCK_SOURCE_OBJECTS, (String) null); // t (h, bl)
+// s (cr): Specify Clock Source Objects: addNotify
+selectButton(PAResourceEtoH.GetObjectsDialog_FIND, "Find"); // a (i, s)
+// bB (s):  Find Names : addNotify
+dismissDialog("Find Names"); // bB (s)
+selectButton(PAResourceEtoH.GetObjectsDialog_FIND, "Find"); // a (i, s)
+// bB (s):  Find Names : addNotify
+dismissDialog("Find Names"); // bB (s)
+selectButton(PAResourceEtoH.GetObjectsDialog_FIND, "Find"); // a (i, s)
+// bB (s):  Find Names : addNotify
+dismissDialog("Find Names"); // bB (s)
+selectList(RDIResource.HDualList_FIND_RESULTS, "clk", 1); // f (c, s)
+selectButton(RDIResource.HDualList_MOVE_SELECTED_ITEMS_TO_RIGHT, "moveRight"); // k (e, s)
+selectButton(PAResourceEtoH.GetObjectsPanel_SET, "Set"); // a (s)
+dismissDialog("Specify Clock Source Objects"); // s (cr)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (bl)
+// bB (bl):  Validate XDC Command : addNotify
+// TclEventType: POWER_CNS_STALE
+// bB (cr):  Apply XDC Constraints : addNotify
+// TclEventType: TIMING_RESULTS_STALE
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// Tcl Message: create_clock -period 10.000 -name clk -waveform {0.000 5.000} [get_ports clk] 
+// 'e' command handler elapsed time: 25 seconds
+// Run Command: PAResourceCommand.PACommandNames_TIMING_CONSTRAINTS_WINDOW
+dismissDialog("Apply XDC Constraints"); // bB (cr)
+// Elapsed time: 10 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (O, cr)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ai (ao, cr)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// al (cr): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a (al)
+// A (cr): Out of Date Design: addNotify
+dismissDialog("Save Project"); // al (cr)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// bB (cr):  Save Constraints : addNotify
+dismissDialog("Out of Date Design"); // A (cr)
+// TclEventType: DESIGN_STALE
+// TclEventType: FILE_SET_CHANGE
+// WARNING: HEventQueue.dispatchEvent() is taking  3653 ms.
+// TclEventType: DESIGN_SAVE
+// Tcl Message: save_constraints 
+// TclEventType: DESIGN_SAVE
+// e (cr):  Run Simulation : addNotify
+dismissDialog("Save Constraints"); // bB (cr)
+// TclEventType: LAUNCH_SIM
+// Tcl Message: launch_simulation 
+// Tcl Message: Command: launch_simulation  
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: LOAD_FEATURE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/azafeer/Desktop/test/pulp_A/fpga/pulp/pulp-zcu102.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [USF-XSim-7] Finding pre-compiled libraries... INFO: [USF-XSim-11] File '/cad/xilinx/Vivado/2019.2/data/xsim/xsim.ini' copied to run dir:'/home/azafeer/Desktop/test/pulp_A/fpga/pulp/pulp-zcu102.sim/sim_1/behav/xsim' INFO: [SIM-utils-54] Inspecting design source files for 'icache_top_mp_128_PF' in fileset 'sim_1'... 
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// Tcl Message: INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... 
+// Tcl Message: INFO: [USF-XSim-2] XSim::Compile design 
+// Tcl Message: INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/azafeer/Desktop/test/pulp_A/fpga/pulp/pulp-zcu102.sim/sim_1/behav/xsim' 
+// Tcl Message: xvlog --incr --relax -prj icache_top_mp_128_PF_vlog.prj 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '3' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/azafeer/Desktop/test/pulp_A/fpga/pulp/pulp-zcu102.sim/sim_1/behav/xsim' 
+// Tcl Message: xelab -wto aad4c70b0a26430081e425acf7ddf351 --incr --debug typical --relax --mt 8 -d TARGET_FPGA= -d TARGET_SYNTHESIS= -d TARGET_VIVADO= -d TARGET_XILINX= -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot icache_top_mp_128_PF_behav xil_defaultlib.icache_top_mp_128_PF xil_defaultlib.glbl -log elaborate.log 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds INFO: [USF-XSim-99] Step results log file:'/home/azafeer/Desktop/test/pulp_A/fpga/pulp/pulp-zcu102.sim/sim_1/behav/xsim/elaborate.log' 
+// Tcl Message: ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or '/home/azafeer/Desktop/test/pulp_A/fpga/pulp/pulp-zcu102.sim/sim_1/behav/xsim/elaborate.log' file for more information. ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation. 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:07 ; elapsed = 00:00:12 . Memory (MB): peak = 10595.820 ; gain = 0.000 ; free physical = 45785 ; free virtual = 80239 
+// Tcl Message: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors. 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.  
+// HOptionPane Error: 'ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.  (Run Simulation)'
+// 'd' command handler elapsed time: 22 seconds
+// Elapsed time: 14 seconds
+selectButton("OptionPane.button", "OK"); // JButton (A, G)
+// a (cr): Critical Messages: addNotify
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (a)
+dismissDialog("Critical Messages"); // a (cr)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 12, true); // u (O, cr) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_RTL_DESIGN
+// g (cr): Close Design: addNotify
+selectButton(PAResourceAtoD.ClosePlanner_YES, "Yes"); // a (g)
+// bB (cr):  Close : addNotify
+dismissDialog("Close Design"); // g (cr)
+// TclEventType: DESIGN_CLOSE
+// HMemoryUtils.trashcanNow. Engine heap size: 5,371 MB. GUI used memory: 154 MB. Current time: 2/6/24, 7:25:25 PM UTC
+// TclEventType: TIMING_RESULTS_UNLOAD
+// Engine heap size: 5,372 MB. GUI used memory: 154 MB. Current time: 2/6/24, 7:25:25 PM UTC
+// WARNING: HEventQueue.dispatchEvent() is taking  1525 ms.
+// TclEventType: CURR_DESIGN_SET
+// TclEventType: TIMING_CLOCK_NETWORKS_UNLOAD
+// Tcl Message: close_design 
+// TclEventType: TIMING_CLOCK_NETWORKS_UNLOAD
+// TclEventType: DESIGN_CLOSE
+// A (cr): Elaborate Design: addNotify
+dismissDialog("Close"); // bB (cr)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// bB (cr):  Open Elaborated Design : addNotify
+dismissDialog("Elaborate Design"); // A (cr)
+// TclEventType: ELABORATE_START
+// Tcl Message: synth_design -rtl -name rtl_1 
+// Tcl Message: Command: synth_design -rtl -name rtl_1 Starting synth_design Using part: xczu9eg-ffvb1156-2-e Top: riscv_fetch_fifo 
+// TclEventType: ELABORATE_FINISH
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: POWER_CNS_STALE
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 5,212 MB. GUI used memory: 91 MB. Current time: 2/6/24, 7:25:41 PM UTC
+// TclEventType: DESIGN_NEW
+// Xgd.load filename: /cad/xilinx/Vivado/2019.2/data/parts/xilinx/zynquplus/devint/zynquplus/xczu9eg/xczu9eg.xgd; ZipEntry: xczu9eg_detail.xgd elapsed time: 1.1s
+// Schematic: addNotify
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// RouteApi::loadEngineXgd elapsed time: 1.3s
+// WARNING: HEventQueue.dispatchEvent() is taking  1583 ms.
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 10595.820 ; gain = 0.000 ; free physical = 45917 ; free virtual = 80371 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'riscv_fetch_fifo' [/home/azafeer/Desktop/test/pulp_A/.bender/git/checkouts/cv32e40p-0a3884e05ea5a482/rtl/riscv_fetch_fifo.sv:25] 
+// Tcl Message: 	Parameter DEPTH bound to: 4 - type: integer  
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'riscv_fetch_fifo' (1#1) [/home/azafeer/Desktop/test/pulp_A/.bender/git/checkouts/cv32e40p-0a3884e05ea5a482/rtl/riscv_fetch_fifo.sv:25] 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 10595.820 ; gain = 0.000 ; free physical = 45945 ; free virtual = 80400 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message:  Report Check Netlist:  +------+------------------+-------+---------+-------+------------------+ |      |Item              |Errors |Warnings |Status |Description       | +------+------------------+-------+---------+-------+------------------+ |1     |multi_driven_nets |      0|        0|Passed |Multi driven nets | +------+------------------+-------+---------+-------+------------------+ --------------------------------------------------------------------------------- Start Handling Custom Attributes --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 10595.820 ; gain = 0.000 ; free physical = 45940 ; free virtual = 80394 
+// Tcl Message: --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 10595.820 ; gain = 0.000 ; free physical = 45940 ; free virtual = 80394 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 10595.820 ; gain = 0.000 ; free physical = 45934 ; free virtual = 80389 
+// Tcl Message: INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message:  Processing XDC Constraints Initializing timing engine Parsing XDC File [/home/azafeer/Desktop/test/pulp_A/fpga/pulp/pulp-zcu102.srcs/constrs_1/imports/constraints/zcu102.xdc] 
+// Tcl Message: INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [/home/azafeer/Desktop/test/pulp_A/fpga/pulp/pulp-zcu102.srcs/constrs_1/imports/constraints/zcu102.xdc:93] 
+// Tcl Message: INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [/home/azafeer/Desktop/test/pulp_A/fpga/pulp/pulp-zcu102.srcs/constrs_1/imports/constraints/zcu102.xdc:93] 
+// Tcl Message: INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [/home/azafeer/Desktop/test/pulp_A/fpga/pulp/pulp-zcu102.srcs/constrs_1/imports/constraints/zcu102.xdc:94] 
+// Tcl Message: INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [/home/azafeer/Desktop/test/pulp_A/fpga/pulp/pulp-zcu102.srcs/constrs_1/imports/constraints/zcu102.xdc:94] 
+// Tcl Message: INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [/home/azafeer/Desktop/test/pulp_A/fpga/pulp/pulp-zcu102.srcs/constrs_1/imports/constraints/zcu102.xdc:95] 
+// Tcl Message: INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [/home/azafeer/Desktop/test/pulp_A/fpga/pulp/pulp-zcu102.srcs/constrs_1/imports/constraints/zcu102.xdc:95] 
+// Tcl Message: INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [/home/azafeer/Desktop/test/pulp_A/fpga/pulp/pulp-zcu102.srcs/constrs_1/imports/constraints/zcu102.xdc:96] 
+// Tcl Message: INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [/home/azafeer/Desktop/test/pulp_A/fpga/pulp/pulp-zcu102.srcs/constrs_1/imports/constraints/zcu102.xdc:96] 
+// Tcl Message: INFO: [Common 17-14] Message 'Vivado 12-584' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings. [/home/azafeer/Desktop/test/pulp_A/fpga/pulp/pulp-zcu102.srcs/constrs_1/imports/constraints/zcu102.xdc:369] 
+// Tcl Message: Finished Parsing XDC File [/home/azafeer/Desktop/test/pulp_A/fpga/pulp/pulp-zcu102.srcs/constrs_1/imports/constraints/zcu102.xdc] 
+// Tcl Message: INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/azafeer/Desktop/test/pulp_A/fpga/pulp/pulp-zcu102.srcs/constrs_1/imports/constraints/zcu102.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/riscv_fetch_fifo_propImpl.xdc]. Resolution: To avoid this warning, move constraints listed in [.Xil/riscv_fetch_fifo_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis. 
+// Tcl Message: Completed Processing XDC Constraints  
+// Tcl Message: INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s). 
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 10595.820 ; gain = 0.000 ; free physical = 45879 ; free virtual = 80334 
+// Tcl Message: INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// Tcl Message: RTL Elaboration Complete:  : Time (s): cpu = 00:00:21 ; elapsed = 00:00:16 . Memory (MB): peak = 10600.820 ; gain = 5.000 ; free physical = 45891 ; free virtual = 80345 
+// Tcl Message: 15 Infos, 135 Warnings, 125 Critical Warnings and 0 Errors encountered. synth_design completed successfully 
+// Tcl Message: synth_design: Time (s): cpu = 00:00:21 ; elapsed = 00:00:16 . Memory (MB): peak = 10600.820 ; gain = 5.000 ; free physical = 45890 ; free virtual = 80345 
+// 'dQ' command handler elapsed time: 23 seconds
+// S (cr): Critical Messages: addNotify
+// Elapsed time: 17 seconds
+dismissDialog("Open Elaborated Design"); // bB (cr)
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (S)
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (S)
+dismissDialog("Critical Messages"); // S (cr)
+selectTab((HResource) null, (HResource) null, "Sources", 0); // aL (aI, cr)
+selectButton(PAResourceEtoH.FileSetView_COLLAPSE_ALL, "Sources_collapse_all"); // E (f, cr)
+selectTab((HResource) null, (HResource) null, "Netlist", 1); // aL (aI, cr)
+expandTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[riscv_fetch_fifo, Leaf Cells (316)]", 2); // bD (O, cr)
+collapseTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[riscv_fetch_fifo, Leaf Cells (316)]", 2); // bD (O, cr)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design, Schematic]", 16, false); // u (O, cr)
+// Run Command: PAResourceCommand.PACommandNames_SCHEMATIC
+// Schematic: addNotify
+closeView(PAResourceOtoP.PAViews_SCHEMATIC, "Schematic"); // f
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design, Schematic]", 31, false); // u (O, cr)
+// bJ (cr): Synthesis is Out-of-date: addNotify
+selectButton(PAResourceQtoS.StaleRunDialog_OPEN_DESIGN, "Open Design"); // a (bJ)
+// bB (cr):  Open Synthesized Design : addNotify
+dismissDialog("Synthesis is Out-of-date"); // bJ (cr)
+// Tcl Message: open_run synth_1 -name synth_1 
+// Tcl Message: Design is defaulting to impl run constrset: constrs_1 Design is defaulting to synth run part: xczu9eg-ffvb1156-2-e 
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: POWER_CNS_STALE
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 5,278 MB. GUI used memory: 153 MB. Current time: 2/6/24, 7:26:30 PM UTC
+// TclEventType: DESIGN_NEW
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// RouteApi::loadEngineXgd elapsed time: 1.2s
+// Device: addNotify
+// DeviceView Instantiated
+// WARNING: HEventQueue.dispatchEvent() is taking  1930 ms.
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 10600.820 ; gain = 0.000 ; free physical = 45903 ; free virtual = 80357 
+// Tcl Message: INFO: [Netlist 29-17] Analyzing 75 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds INFO: [Project 1-479] Netlist was created with Vivado 2019.2 INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message: Parsing XDC File [/home/azafeer/Desktop/test/pulp_A/fpga/pulp/pulp-zcu102.srcs/constrs_1/imports/constraints/zcu102.xdc] 
+// Tcl Message: INFO: [Timing 38-35] Done setting XDC timing constraints. [/home/azafeer/Desktop/test/pulp_A/fpga/pulp/pulp-zcu102.srcs/constrs_1/imports/constraints/zcu102.xdc:25] 
+// Tcl Message: INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [/home/azafeer/Desktop/test/pulp_A/fpga/pulp/pulp-zcu102.srcs/constrs_1/imports/constraints/zcu102.xdc:61] 
+// Tcl Message: INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [/home/azafeer/Desktop/test/pulp_A/fpga/pulp/pulp-zcu102.srcs/constrs_1/imports/constraints/zcu102.xdc:61] 
+// Tcl Message: INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [/home/azafeer/Desktop/test/pulp_A/fpga/pulp/pulp-zcu102.srcs/constrs_1/imports/constraints/zcu102.xdc:61] 
+// Tcl Message: INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [/home/azafeer/Desktop/test/pulp_A/fpga/pulp/pulp-zcu102.srcs/constrs_1/imports/constraints/zcu102.xdc:65] 
+// Tcl Message: INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [/home/azafeer/Desktop/test/pulp_A/fpga/pulp/pulp-zcu102.srcs/constrs_1/imports/constraints/zcu102.xdc:65] 
+// Tcl Message: INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [/home/azafeer/Desktop/test/pulp_A/fpga/pulp/pulp-zcu102.srcs/constrs_1/imports/constraints/zcu102.xdc:68] 
+// Tcl Message: INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [/home/azafeer/Desktop/test/pulp_A/fpga/pulp/pulp-zcu102.srcs/constrs_1/imports/constraints/zcu102.xdc:68] 
+// Tcl Message: INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [/home/azafeer/Desktop/test/pulp_A/fpga/pulp/pulp-zcu102.srcs/constrs_1/imports/constraints/zcu102.xdc:93] 
+// Tcl Message: INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [/home/azafeer/Desktop/test/pulp_A/fpga/pulp/pulp-zcu102.srcs/constrs_1/imports/constraints/zcu102.xdc:93] 
+// Tcl Message: INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [/home/azafeer/Desktop/test/pulp_A/fpga/pulp/pulp-zcu102.srcs/constrs_1/imports/constraints/zcu102.xdc:94] 
+// Tcl Message: INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [/home/azafeer/Desktop/test/pulp_A/fpga/pulp/pulp-zcu102.srcs/constrs_1/imports/constraints/zcu102.xdc:94] 
+// Tcl Message: INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [/home/azafeer/Desktop/test/pulp_A/fpga/pulp/pulp-zcu102.srcs/constrs_1/imports/constraints/zcu102.xdc:95] 
+// Tcl Message: INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [/home/azafeer/Desktop/test/pulp_A/fpga/pulp/pulp-zcu102.srcs/constrs_1/imports/constraints/zcu102.xdc:95] 
+// Tcl Message: INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [/home/azafeer/Desktop/test/pulp_A/fpga/pulp/pulp-zcu102.srcs/constrs_1/imports/constraints/zcu102.xdc:96] 
+// Tcl Message: INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [/home/azafeer/Desktop/test/pulp_A/fpga/pulp/pulp-zcu102.srcs/constrs_1/imports/constraints/zcu102.xdc:96] 
+// Tcl Message: Finished Parsing XDC File [/home/azafeer/Desktop/test/pulp_A/fpga/pulp/pulp-zcu102.srcs/constrs_1/imports/constraints/zcu102.xdc] 
+// Tcl Message: INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s). 
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 10635.840 ; gain = 0.000 ; free physical = 45748 ; free virtual = 80203 
+// Tcl Message: INFO: [Project 1-111] Unisim Transformation Summary:   A total of 71 instances were transformed.   IBUF => IBUF (IBUFCTRL, INBUF): 71 instances  
+// Device view-level: 0.0
+// Tcl Message: open_run: Time (s): cpu = 00:00:21 ; elapsed = 00:00:13 . Memory (MB): peak = 10659.852 ; gain = 59.031 ; free physical = 45630 ; free virtual = 80085 
+// Run Command: PAResourceCommand.PACommandNames_SCHEMATIC
+// Schematic: addNotify
+// S (cr): Critical Messages: addNotify
+// Elapsed time: 14 seconds
+dismissDialog("Open Synthesized Design"); // bB (cr)
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (S)
+dismissDialog("Critical Messages"); // S (cr)
+// RouteApi::initDelayMediator elapsed time: 3.6s
+// RouteApi: Init Delay Mediator Swing Worker Finished
+expandTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[riscv_fetch_fifo, Leaf Cells (852)]", 2); // bD (O, cr)
+// PAPropertyPanels.initPanels (addr_Q_reg[0][16] (FDCE)) elapsed time: 0.2s
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[riscv_fetch_fifo, Leaf Cells (852), addr_Q_reg[0][16] (FDCE)]", 152, false); // bD (O, cr)
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, (String) null); // aF (ac, cr)
+// Tcl Command: '#create FDRE cell; #create a MUX_cell; #create net mux to q_reg/D; #create net ff/Q to mux/I1; #create net mux_sel_pin; ; ; set reg_count [llength [lindex [all_ffs]]]; ; set reg_list [lindex [all_ffs]]; ; set input_nets [get_nets -of_objects [get_pins -of_objects $reg_list -filter {REF_PIN_NAME=~D}]]; ; for {set...'
+// Tcl Command: '#create FDRE cell'
+// Tcl Command: '#create a MUX_cell'
+// Tcl Command: '#create net mux to q_reg/D'
+// Tcl Command: '#create net ff/Q to mux/I1'
+// Tcl Command: '#create net mux_sel_pin'
+// Tcl Command: ''
+// Tcl Command: ''
+// Tcl Command: 'set reg_count [llength [lindex [all_ffs]]]'
+// Tcl Command: ''
+// Tcl Command: 'set reg_list [lindex [all_ffs]]'
+// Tcl Command: ''
+// Tcl Command: 'set input_nets [get_nets -of_objects [get_pins -of_objects $reg_list -filter {REF_PIN_NAME=~D}]]'
+// Tcl Command: ''
+// Tcl Command: 'for {set x 0} {$x< $reg_count} {incr x} { create_cell -reference FDRE [lindex $reg_list $x]_fdre }'
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: #create FDRE cell 
+// Tcl Message: #create a MUX_cell 
+// Tcl Message: #create net mux to q_reg/D 
+// Tcl Message: #create net ff/Q to mux/I1 
+// Tcl Message: #create net mux_sel_pin 
+// Tcl Message: set reg_count [llength [lindex [all_ffs]]] 
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: 200 
+// Tcl Message: set reg_list [lindex [all_ffs]] 
+// Tcl Message: set input_nets [get_nets -of_objects [get_pins -of_objects $reg_list -filter {REF_PIN_NAME=~D}]] 
+// Tcl Message: for {set x 0} {$x< $reg_count} {incr x} { create_cell -reference FDRE [lindex $reg_list $x]_fdre } 
+// TclEventType: NETLIST_UPDATE
+// bB (cr):  Tcl Command Line : addNotify
+// TclEventType: NETLIST_UPDATE
+// Tcl Command: ''
+// Tcl Command: 'for {set x 0} {$x< $reg_count} {incr x} { create_cell -reference MUXF7 [lindex $reg_list $x]_mux }'
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: for {set x 0} {$x< $reg_count} {incr x} { create_cell -reference MUXF7 [lindex $reg_list $x]_mux } 
+// TclEventType: NETLIST_UPDATE
+// Tcl Command: ''
+// Tcl Command: 'for {set x 0} {$x< $reg_count} {incr x} { create_net [lindex $reg_list $x]_mux_sel [lindex $reg_list $x]_muxO_Din [lindex $reg_list $x]_FDREQ_MUXI }'
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: for {set x 0} {$x< $reg_count} {incr x} { create_net [lindex $reg_list $x]_mux_sel [lindex $reg_list $x]_muxO_Din [lindex $reg_list $x]_FDREQ_MUXI } 
+// TclEventType: NETLIST_UPDATE
+// Tcl Command: ''
+// Tcl Command: '#connect net from output of fdre to i1 of mux'
+// Tcl Command: 'for {set x 0} {$x< $reg_count} {incr x} { connect_net -hierarchical -net [get_nets [lindex $reg_list $x]_FDREQ_MUXI] -objects  [list [get_pins -of_objects [get_cells [lindex $reg_list $x]_fdre] -filter {REF_PIN_NAME =~Q}] [get_pins -of_objects [get_cells [lindex $reg_list $x]_mux] -filter {REF_PIN_NAME =~I1}]] }'
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: #connect net from output of fdre to i1 of mux 
+// Tcl Message: for {set x 0} {$x< $reg_count} {incr x} { connect_net -hierarchical -net [get_nets [lindex $reg_list $x]_FDREQ_MUXI] -objects  [list [get_pins -of_objects [get_cells [lindex $reg_list $x]_fdre] -filter {REF_PIN_NAME =~Q}] [get_pins -of_objects [get_cells [lindex $reg_list $x]_mux] -filter {REF_PIN_NAME =~I1}]] } 
+// TclEventType: NETLIST_UPDATE
+// Tcl Command: ''
+// Tcl Command: '#connect the data net to the input of fdre and i0 of mux'
+// Tcl Command: 'for {set x 0} {$x< $reg_count} {incr x} { connect_net -hierarchical -net [get_nets [lindex $input_nets $x]] -objects [list [get_pins -of_objects [get_cells [lindex $reg_list $x]_mux] -filter {REF_PIN_NAME=~I0}] [get_pins -of_objects [get_cells [lindex $reg_list $x]_fdre] -filter {REF_PIN_NAME =~D}]] }'
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: #connect the data net to the input of fdre and i0 of mux 
+// Tcl Message: for {set x 0} {$x< $reg_count} {incr x} { connect_net -hierarchical -net [get_nets [lindex $input_nets $x]] -objects [list [get_pins -of_objects [get_cells [lindex $reg_list $x]_mux] -filter {REF_PIN_NAME=~I0}] [get_pins -of_objects [get_cells [lindex $reg_list $x]_fdre] -filter {REF_PIN_NAME =~D}]] } 
+// TclEventType: NETLIST_UPDATE
+// Tcl Command: ''
+// Tcl Command: '#disconnect the data net to the input of the q_reg inorder to connect the output of mux/O to input of q_reg/D'
+// Tcl Command: 'for {set x 0} {$x< $reg_count} {incr x} { disconnect_net -net [get_nets [lindex $input_nets $x]]  -objects [list [get_pins -of_objects [lindex $reg_list $x] -filter {REF_PIN_NAME=~D}] ] }'
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: #disconnect the data net to the input of the q_reg inorder to connect the output of mux/O to input of q_reg/D 
+// Tcl Message: for {set x 0} {$x< $reg_count} {incr x} { disconnect_net -net [get_nets [lindex $input_nets $x]]  -objects [list [get_pins -of_objects [lindex $reg_list $x] -filter {REF_PIN_NAME=~D}] ] } 
+// TclEventType: NETLIST_UPDATE
+// Tcl Command: ''
+// Tcl Command: '#connect the output port of mux/O to the input port of q_reg/D'
+// Tcl Command: 'for {set x 0} {$x< $reg_count} {incr x} { connect_net -net [get_nets [lindex $reg_list $x]_muxO_Din]  -objects [list [get_pins -of_objects [lindex $reg_list $x] -filter {REF_PIN_NAME=~D}] [get_pins -of_objects [get_cells [lindex $reg_list $x]_mux] -filter {REF_PIN_NAME=~O}]] } '
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: #connect the output port of mux/O to the input port of q_reg/D 
+// Tcl Message: for {set x 0} {$x< $reg_count} {incr x} { connect_net -net [get_nets [lindex $reg_list $x]_muxO_Din]  -objects [list [get_pins -of_objects [lindex $reg_list $x] -filter {REF_PIN_NAME=~D}] [get_pins -of_objects [get_cells [lindex $reg_list $x]_mux] -filter {REF_PIN_NAME=~O}]] }  
+// TclEventType: NETLIST_UPDATE
+// Tcl Command: ''
+// Tcl Command: '#connect the clock to the fdre/C'
+// Tcl Command: 'for {set x 0} {$x< $reg_count} {incr x} {  connect_net -hierarchical -net [get_nets -of_objects [get_pins -of_objects [lindex $reg_list $x] -filter {REF_PIN_NAME=~C}]] -objects [list [get_pins -of_objects [get_cells [lindex $reg_list $x]_fdre] -filter {REF_PIN_NAME =~C}]] }'
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: #connect the clock to the fdre/C 
+// Tcl Message: for {set x 0} {$x< $reg_count} {incr x} {  connect_net -hierarchical -net [get_nets -of_objects [get_pins -of_objects [lindex $reg_list $x] -filter {REF_PIN_NAME=~C}]] -objects [list [get_pins -of_objects [get_cells [lindex $reg_list $x]_fdre] -filter {REF_PIN_NAME =~C}]] } 
+// TclEventType: NETLIST_UPDATE
+// Tcl Command: ''
+// Tcl Command: '#connect rst pin to rst'
+// Tcl Command: 'for {set x 0} {$x< $reg_count} {incr x} { connect_net -hierarchical -net [get_nets -of_objects [get_pins -of_objects [lindex $reg_list $x] -filter {REF_PIN_NAME=~CLR || REF_PIN_NAME=~R}]] -objects [list [get_pins -of_objects [get_cells [lindex $reg_list $x]_fdre] -filter {REF_PIN_NAME =~R}]] }'
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: #connect rst pin to rst 
+// Tcl Message: for {set x 0} {$x< $reg_count} {incr x} { connect_net -hierarchical -net [get_nets -of_objects [get_pins -of_objects [lindex $reg_list $x] -filter {REF_PIN_NAME=~CLR || REF_PIN_NAME=~R}]] -objects [list [get_pins -of_objects [get_cells [lindex $reg_list $x]_fdre] -filter {REF_PIN_NAME =~R}]] } 
+// TclEventType: NETLIST_UPDATE
+// Tcl Command: ''
+// Tcl Command: '#connect the mux_sel net to mux/S pin and FDRE/CE pin for data propagation purposes'
+// Tcl Command: 'for {set x 0} {$x< $reg_count} {incr x} { connect_net -hierarchical -net [get_nets [lindex $reg_list $x]_mux_sel] -objects [list [get_pins -of_objects [get_cells [lindex $reg_list $x]_mux] -filter {REF_PIN_NAME=~S}] [get_pins -of_objects [get_cells [lindex $reg_list $x]_fdre] -filter {REF_PIN_NAME =~CE}]] }'
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: #connect the mux_sel net to mux/S pin and FDRE/CE pin for data propagation purposes 
+// Tcl Message: for {set x 0} {$x< $reg_count} {incr x} { connect_net -hierarchical -net [get_nets [lindex $reg_list $x]_mux_sel] -objects [list [get_pins -of_objects [get_cells [lindex $reg_list $x]_mux] -filter {REF_PIN_NAME=~S}] [get_pins -of_objects [get_cells [lindex $reg_list $x]_fdre] -filter {REF_PIN_NAME =~CE}]] } 
+// TclEventType: NETLIST_UPDATE
+// Tcl Command: ''
+// Tcl Command: '#make FDRE/D and FDRE/R inverted to make it work as per our logic'
+// Tcl Command: 'for {set x 0} {$x< $reg_count} {incr x} { set_property IS_INVERTED 1 [get_pins -of_objects [get_cells [lindex $reg_list $x]_fdre] -filter {REF_PIN_NAME =~D}] }'
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: #make FDRE/D and FDRE/R inverted to make it work as per our logic 
+// Tcl Message: for {set x 0} {$x< $reg_count} {incr x} { set_property IS_INVERTED 1 [get_pins -of_objects [get_cells [lindex $reg_list $x]_fdre] -filter {REF_PIN_NAME =~D}] } 
+// TclEventType: NETLIST_UPDATE
+// Tcl Command: ''
+// Tcl Command: '#create a port'
+// Tcl Command: 'create_port -direction OUT  -from 0 -to $reg_count made_up_gnd_port'
+// TclEventType: SIGNAL_BUS_ADD
+// Tcl Command: ''
+// Tcl Command: '#connect the port to mux_sel net'
+// Tcl Command: 'for {set x 0} {$x< $reg_count} {incr x} { connect_net -hierarchical -net [get_nets [lindex $reg_list $x]_mux_sel] -objects [list [get_ports made_up_gnd_port[$x]]] }'
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: #create a port 
+// Tcl Message: create_port -direction OUT  -from 0 -to $reg_count made_up_gnd_port 
+// Tcl Message: #connect the port to mux_sel net 
+// Tcl Message: for {set x 0} {$x< $reg_count} {incr x} { connect_net -hierarchical -net [get_nets [lindex $reg_list $x]_mux_sel] -objects [list [get_ports made_up_gnd_port[$x]]] } 
+// TclEventType: NETLIST_UPDATE
+// Tcl Command: ''
+// Tcl Command: '#pulldown the gnd port temperarily'
+// Tcl Command: 'for {set x 0} {$x< $reg_count} {incr x} { set_property PULLDOWN TRUE [get_ports made_up_gnd_port[$x]] }'
+// TclEventType: SIGNAL_MODIFY
+// Tcl Message: #pulldown the gnd port temperarily 
+// Tcl Message: for {set x 0} {$x< $reg_count} {incr x} { set_property PULLDOWN TRUE [get_ports made_up_gnd_port[$x]] } 
+// TclEventType: SIGNAL_MODIFY
+// HMemoryUtils.trashcanNow. Engine heap size: 5,452 MB. GUI used memory: 168 MB. Current time: 2/6/24, 7:28:10 PM UTC
+// Elapsed time: 80 seconds
+dismissDialog("Tcl Command Line"); // bB (cr)
+// HMemoryUtils.trashcanNow. Engine heap size: 5,452 MB. GUI used memory: 167 MB. Current time: 2/6/24, 7:58:11 PM UTC
+// Elapsed time: 3085 seconds
+closeView(PAResourceOtoP.PAViews_SCHEMATIC, "Schematic"); // f
+selectButton(RDIResource.HTree_COLLAPSE_ALL, "Netlist_collapse_all"); // l (f, cr)
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[riscv_fetch_fifo]", 0, true, false, false, false, true, false); // bD (O, cr) - Popup Trigger - Node
+selectMenu(PAResourceItoN.NetlistTreeView_FLOORPLANNING, "Floorplanning"); // af (ao, cr)
+selectMenuItem(PAResourceCommand.PACommandNames_SCHEMATIC, "Schematic"); // ai (ao, cr)
+// Run Command: PAResourceCommand.PACommandNames_SCHEMATIC
+// Schematic: addNotify
+// u:  Generate Schematic : addNotify
+dismissDialog("Generate Schematic"); // u
+expandTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[riscv_fetch_fifo, Leaf Cells (1252)]", 2); // bD (O, cr)
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[riscv_fetch_fifo, Leaf Cells (1252), is_hwlp_Q_reg[0] (FDCE)]", 409, false); // bD (O, cr)
+// Elapsed time: 14 seconds
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[riscv_fetch_fifo, Leaf Cells (1252), rdata_Q_reg[0][4]_fdre (FDRE)]", 839, false); // bD (O, cr)
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[riscv_fetch_fifo, Leaf Cells (1252), rdata_Q_reg[0][4] (FDCE)]", 838, false); // bD (O, cr)
+// PAPropertyPanels.initPanels (rdata_Q_reg[0][4]_muxO_Din) elapsed time: 0.2s
+// Schematic: addNotify
+// PAPropertyPanels.initPanels (made_up_gnd_port) elapsed time: 0.3s
+// u:  Generate Schematic : addNotify
+// Elapsed time: 28 seconds
+dismissDialog("Generate Schematic"); // u
+// Elapsed time: 86 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design, Constraints Wizard]", 20, false); // u (O, cr)
+// Run Command: PAResourceCommand.PACommandNames_TIMING_CONSTRAINTS_WIZARD
+// Tcl Command: 'create_clock -help'
+// Tcl Command: 'create_clock -help'
+// Tcl Command: 'create_clock -help'
+// Tcl Command: 'create_clock -help'
+// Tcl Command: 'create_clock -help'
+// Tcl Command: 'create_clock -help'
+// Tcl Command: 'create_clock -help'
+// Tcl Command: 'create_clock -help'
+// Tcl Command: 'create_clock -help'
+// Tcl Command: 'create_clock -help'
+// Tcl Command: 'create_clock -help'
+// cC (cr): Timing Constraints Wizard: addNotify
+// bB (cC):  Timing Constraints Wizard : addNotify
+// TclEventType: TIMING_CONSTRAINTS_WIZARD_CREATED
+// bB (cC):  Timing Constraints Wizard : addNotify
+selectButton("NEXT", "Next >"); // JButton (j, cC)
+dismissDialog("Timing Constraints Wizard"); // bB (cC)
+selectButton("CANCEL", "Cancel"); // JButton (j, cC)
+// bB (cC):  Apply XDC Constraints : addNotify
+// TclEventType: TIMING_CONSTRAINTS_WIZARD_CLOSED
+dismissDialog("Apply XDC Constraints"); // bB (cC)
+dismissDialog("Timing Constraints Wizard"); // cC (cr)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design, Edit Timing Constraints]", 21, false); // u (O, cr)
+// Run Command: PAResourceCommand.PACommandNames_TIMING_CONSTRAINTS_WINDOW
+// bB (SwingUtilities.SharedOwnerFrame):  Load Constraints : addNotify
+dismissDialog("Load Constraints"); // bB (SwingUtilities.SharedOwnerFrame)
+selectTable(PAResourceEtoH.EditCreateClockTablePanel_EDIT_CREATE_CLOCK_TABLE, "1 ; clk ; 10.0 ; 0.0 ; 5.0 ; false ; [get_ports clk] ; /home/azafeer/Desktop/test/pulp_A/fpga/pulp/pulp-zcu102.srcs/constrs_1/imports/constraints/zcu102.xdc ;  ; ", 0, "clk", 1); // f (O, cr)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (O, cr)
+editTable(PAResourceEtoH.EditCreateClockTablePanel_EDIT_CREATE_CLOCK_TABLE, "clk", 0, "Clock Name", 1); // f (O, cr)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ai (ao, cr)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// al (cr): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a (al)
+// A (cr): Out of Date Design: addNotify
+dismissDialog("Save Project"); // al (cr)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// bB (cr):  Save Constraints : addNotify
+dismissDialog("Out of Date Design"); // A (cr)
+// TclEventType: DESIGN_STALE
+// TclEventType: FILE_SET_CHANGE
+// WARNING: HEventQueue.dispatchEvent() is taking  3451 ms.
+// TclEventType: DESIGN_SAVE
+// Tcl Message: save_constraints 
+// TclEventType: DESIGN_SAVE
+// e (cr):  Run Simulation : addNotify
+dismissDialog("Save Constraints"); // bB (cr)
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// Tcl Message: launch_simulation 
+// Tcl Message: Command: launch_simulation  
+// Tcl Message: xvlog --incr --relax -prj icache_top_mp_128_PF_vlog.prj 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '1' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/azafeer/Desktop/test/pulp_A/fpga/pulp/pulp-zcu102.sim/sim_1/behav/xsim' 
+// Tcl Message: xelab -wto aad4c70b0a26430081e425acf7ddf351 --incr --debug typical --relax --mt 8 -d TARGET_FPGA= -d TARGET_SYNTHESIS= -d TARGET_VIVADO= -d TARGET_XILINX= -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot icache_top_mp_128_PF_behav xil_defaultlib.icache_top_mp_128_PF xil_defaultlib.glbl -log elaborate.log 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds INFO: [USF-XSim-99] Step results log file:'/home/azafeer/Desktop/test/pulp_A/fpga/pulp/pulp-zcu102.sim/sim_1/behav/xsim/elaborate.log' 
+// Tcl Message: ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or '/home/azafeer/Desktop/test/pulp_A/fpga/pulp/pulp-zcu102.sim/sim_1/behav/xsim/elaborate.log' file for more information. ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation. 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 10661.852 ; gain = 0.000 ; free physical = 45335 ; free virtual = 79816 
+// Tcl Message: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors. 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.  
+// HOptionPane Error: 'ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.  (Run Simulation)'
+// 'd' command handler elapsed time: 20 seconds
+// Elapsed time: 13 seconds
+selectButton("OptionPane.button", "OK"); // JButton (A, G)
+// a (cr): Critical Messages: addNotify
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (a)
+dismissDialog("Critical Messages"); // a (cr)
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 343, 128); // dT (af, cr)
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 343, 128, false, false, false, false, true); // dT (af, cr) - Double Click
+// Elapsed time: 251 seconds
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aL (aI, cr)
+selectCheckBox(PAResourceItoN.MsgView_ERROR_MESSAGES, (String) null, false); // g (aR, cr): FALSE
+selectCheckBox(PAResourceItoN.MsgView_ERROR_MESSAGES, (String) null, true); // g (aR, cr): TRUE
+selectButton(PAResourceItoN.MsgView_COLLAPSE_ALL, "Messages_collapse_all"); // E (f, cr)
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Simulation]", 5); // ah (O, cr)
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Simulation, sim_1]", 6); // ah (O, cr)
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, synth_1]", 4); // ah (O, cr)
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, synth_1, General Messages]", 5); // ah (O, cr)
+// Elapsed time: 16 seconds
+selectTab((HResource) null, (HResource) null, "Sources", 0); // aL (aI, cr)
+// WARNING: HEventQueue.dispatchEvent() is taking  1101 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 5,546 MB. GUI used memory: 178 MB. Current time: 2/6/24, 8:28:11 PM UTC
+// Elapsed time: 87 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 12); // B (F, cr)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, xilinx_pulp (xilinx_pulp.v), i_pulp : pulp (pulp.sv)]", 15); // B (F, cr)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, xilinx_pulp (xilinx_pulp.v), i_pulp : pulp (pulp.sv), soc_domain_i : soc_domain (soc_domain.sv)]", 16); // B (F, cr)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, xilinx_pulp (xilinx_pulp.v), i_pulp : pulp (pulp.sv), soc_domain_i : soc_domain (soc_domain.sv), pulp_soc_i : pulp_soc (pulp_soc.sv), fc_subsystem_i : fc_subsystem (fc_subsystem.sv), FC_CORE.lFC_CORE : riscv_core (riscv_core.sv), if_stage_i : riscv_if_stage (riscv_if_stage.sv)]", 20); // B (F, cr)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, xilinx_pulp (xilinx_pulp.v), i_pulp : pulp (pulp.sv), soc_domain_i : soc_domain (soc_domain.sv), pulp_soc_i : pulp_soc (pulp_soc.sv), fc_subsystem_i : fc_subsystem (fc_subsystem.sv), FC_CORE.lFC_CORE : riscv_core (riscv_core.sv), if_stage_i : riscv_if_stage (riscv_if_stage.sv), riscv_prefetch_L0_buffer (riscv_prefetch_L0_buffer.sv)]", 22); // B (F, cr)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, xilinx_pulp (xilinx_pulp.v), i_pulp : pulp (pulp.sv), cluster_domain_i : cluster_domain (cluster_domain.sv)]", 24); // B (F, cr)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, xilinx_pulp (xilinx_pulp.v), i_pulp : pulp (pulp.sv), cluster_domain_i : cluster_domain (cluster_domain.sv), cluster_i : pulp_cluster (pulp_cluster.sv)]", 25); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, xilinx_pulp (xilinx_pulp.v), i_pulp : pulp (pulp.sv), soc_domain_i : soc_domain (soc_domain.sv), pulp_soc_i : pulp_soc (pulp_soc.sv), fc_subsystem_i : fc_subsystem (fc_subsystem.sv), FC_CORE.lFC_CORE : riscv_core (riscv_core.sv), if_stage_i : riscv_if_stage (riscv_if_stage.sv), riscv_prefetch_L0_buffer (riscv_prefetch_L0_buffer.sv), riscv_L0_buffer (riscv_L0_buffer.sv)]", 23, false); // B (F, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "riscv_prefetch_buffer.sv", 2); // i (h, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Schematic", 3); // i (h, cr)
+selectTab((HResource) null, (HResource) null, "Netlist", 1); // aL (aI, cr)
+selectButton(RDIResource.HTree_COLLAPSE_ALL, "Netlist_collapse_all"); // l (f, cr)
+selectTab((HResource) null, (HResource) null, "Sources", 0); // aL (aI, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, xilinx_pulp (xilinx_pulp.v), i_pulp : pulp (pulp.sv), soc_domain_i : soc_domain (soc_domain.sv), pulp_soc_i : pulp_soc (pulp_soc.sv), fc_subsystem_i : fc_subsystem (fc_subsystem.sv), FC_CORE.lFC_CORE : riscv_core (riscv_core.sv), if_stage_i : riscv_if_stage (riscv_if_stage.sv), riscv_prefetch_L0_buffer (riscv_prefetch_L0_buffer.sv), riscv_L0_buffer (riscv_L0_buffer.sv)]", 23, false, false, false, false, true, false); // B (F, cr) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // af (ao, cr)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // af (ao, cr)
+selectMenuItem(PAResourceCommand.PACommandNames_SET_AS_TOP, "Set as Top"); // ai (ao, cr)
+// Run Command: PAResourceCommand.PACommandNames_SET_AS_TOP
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: set_property top riscv_L0_buffer [get_filesets sim_1] 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// bB (cr):  Set as Top : addNotify
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: set_property top_lib xil_defaultlib [get_filesets sim_1] 
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Set as Top"); // bB (cr)
+// WARNING: HEventQueue.dispatchEvent() is taking  1838 ms.
+// Elapsed time: 116 seconds
+setText("PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE_SEARCH_FIELD", "riscv_prefetch"); // OverlayTextField (C, cr)
+// Elapsed time: 15 seconds
+maximizeFrame(RDIResource.RDIViews_PROPERTIES, "Properties"); // aA (aL, cr)
+// Elapsed time: 333 seconds
+unMaximizeFrame(RDIResource.RDIViews_PROPERTIES, "Properties"); // aA (aL, cr)
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 14400 ms. Increasing delay to 43200 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 1139 ms. Increasing delay to 3000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 452 ms. Decreasing delay to 2452 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 5,603 MB. GUI used memory: 177 MB. Current time: 2/6/24, 8:58:11 PM UTC
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 7201 ms. Increasing delay to 21603 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 292 ms. Decreasing delay to 2292 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 13771 ms. Increasing delay to 41313 ms.
+// Elapsed time: 2158 seconds
+selectTab((HResource) null, (HResource) null, "Netlist", 1); // aL (aI, cr)
+expandTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[riscv_fetch_fifo, Leaf Cells (1252)]", 2); // bD (O, cr)
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[riscv_fetch_fifo, Leaf Cells (1252), addr_Q_reg[0][11]_fdre (FDRE)]", 170, false); // bD (O, cr)
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[riscv_fetch_fifo, Leaf Cells (1252), addr_Q_reg[0][11]_mux (MUXF7)]", 171, false); // bD (O, cr)
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[riscv_fetch_fifo, Leaf Cells (1252), addr_Q_reg[0][11]_fdre (FDRE)]", 170, false); // bD (O, cr)
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[riscv_fetch_fifo, Leaf Cells (1252), addr_Q_reg[0][11]_fdre (FDRE)]", 170, false, false, false, false, true, false); // bD (O, cr) - Popup Trigger
+selectMenu(PAResourceItoN.InstanceMenu_FLOORPLANNING, "Floorplanning"); // af (ao, cr)
+selectMenu(PAResourceQtoS.SelectMenu_HIGHLIGHT, "Highlight"); // af (ao, cr)
+selectMenu(PAResourceQtoS.SelectMenu_MARK, "Mark"); // af (ao, cr)
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 385 ms. Decreasing delay to 2385 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 3776 ms. Increasing delay to 11328 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 8555 ms. Increasing delay to 25665 ms.
+// Elapsed time: 75 seconds
+selectMenu(PAResourceItoN.InstanceMenu_FLOORPLANNING, "Floorplanning"); // af (ao, cr)
+selectMenu(PAResourceItoN.InstanceMenu_FLOORPLANNING, "Floorplanning"); // af (ao, cr)
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[riscv_fetch_fifo, Leaf Cells (1252), addr_Q_reg[0][12]_fdre (FDRE)]", 173, false); // bD (O, cr)
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[riscv_fetch_fifo, Leaf Cells (1252), addr_Q_reg[0][12] (FDCE)]", 172, false); // bD (O, cr)
+// Elapsed time: 35 seconds
+selectTab((HResource) null, (HResource) null, "Sources", 0); // aL (aI, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, xilinx_pulp (xilinx_pulp.v), i_pulp : pulp (pulp.sv), soc_domain_i : soc_domain (soc_domain.sv), pulp_soc_i : pulp_soc (pulp_soc.sv), fc_subsystem_i : fc_subsystem (fc_subsystem.sv), FC_CORE.lFC_CORE : riscv_core (riscv_core.sv), if_stage_i : riscv_if_stage (riscv_if_stage.sv), riscv_prefetch_L0_buffer (riscv_prefetch_L0_buffer.sv), riscv_L0_buffer (riscv_L0_buffer.sv)]", 23, false); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, xilinx_pulp (xilinx_pulp.v), i_pulp : pulp (pulp.sv), soc_domain_i : soc_domain (soc_domain.sv), pulp_soc_i : pulp_soc (pulp_soc.sv), fc_subsystem_i : fc_subsystem (fc_subsystem.sv), FC_CORE.lFC_CORE : riscv_core (riscv_core.sv), if_stage_i : riscv_if_stage (riscv_if_stage.sv), riscv_prefetch_L0_buffer (riscv_prefetch_L0_buffer.sv), riscv_L0_buffer (riscv_L0_buffer.sv)]", 23, false, false, false, false, true, false); // B (F, cr) - Popup Trigger
+// Elapsed time: 14 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis]", 11, true); // u (O, cr) - Node
+// Run Command: PAResourceCommand.PACommandNames_SHOW_RTL_DESIGN
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: current_design rtl_1 
+selectButton(PAResourceOtoP.ProjectTab_RELOAD, "Reload"); // h (ds, cr)
+// bB (cr):  Reloading : addNotify
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 264 ms. Decreasing delay to 2264 ms.
+// TclEventType: DESIGN_REFRESH
+// HMemoryUtils.trashcanNow. Engine heap size: 5,604 MB. GUI used memory: 179 MB. Current time: 2/6/24, 9:16:15 PM UTC
+// Engine heap size: 5,604 MB. GUI used memory: 179 MB. Current time: 2/6/24, 9:16:15 PM UTC
+// WARNING: HEventQueue.dispatchEvent() is taking  2237 ms.
+// Tcl Message: refresh_design 
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: POWER_CNS_STALE
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_REFRESH
+// HMemoryUtils.trashcanNow. Engine heap size: 5,583 MB. GUI used memory: 176 MB. Current time: 2/6/24, 9:16:23 PM UTC
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// RouteApi::loadEngineXgd elapsed time: 1.4s
+// Schematic: addNotify
+// WARNING: HEventQueue.dispatchEvent() is taking  3230 ms.
+// Tcl Message: INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message:  Processing XDC Constraints Initializing timing engine Parsing XDC File [/home/azafeer/Desktop/test/pulp_A/fpga/pulp/pulp-zcu102.srcs/constrs_1/imports/constraints/zcu102.xdc] 
+// Tcl Message: INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [/home/azafeer/Desktop/test/pulp_A/fpga/pulp/pulp-zcu102.srcs/constrs_1/imports/constraints/zcu102.xdc:93] 
+// Tcl Message: INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [/home/azafeer/Desktop/test/pulp_A/fpga/pulp/pulp-zcu102.srcs/constrs_1/imports/constraints/zcu102.xdc:93] 
+// Tcl Message: INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [/home/azafeer/Desktop/test/pulp_A/fpga/pulp/pulp-zcu102.srcs/constrs_1/imports/constraints/zcu102.xdc:94] 
+// Tcl Message: INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [/home/azafeer/Desktop/test/pulp_A/fpga/pulp/pulp-zcu102.srcs/constrs_1/imports/constraints/zcu102.xdc:94] 
+// Tcl Message: INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [/home/azafeer/Desktop/test/pulp_A/fpga/pulp/pulp-zcu102.srcs/constrs_1/imports/constraints/zcu102.xdc:95] 
+// Tcl Message: INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [/home/azafeer/Desktop/test/pulp_A/fpga/pulp/pulp-zcu102.srcs/constrs_1/imports/constraints/zcu102.xdc:95] 
+// Tcl Message: INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [/home/azafeer/Desktop/test/pulp_A/fpga/pulp/pulp-zcu102.srcs/constrs_1/imports/constraints/zcu102.xdc:96] 
+// Tcl Message: INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [/home/azafeer/Desktop/test/pulp_A/fpga/pulp/pulp-zcu102.srcs/constrs_1/imports/constraints/zcu102.xdc:96] 
+// Tcl Message: INFO: [Common 17-14] Message 'Vivado 12-584' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings. [/home/azafeer/Desktop/test/pulp_A/fpga/pulp/pulp-zcu102.srcs/constrs_1/imports/constraints/zcu102.xdc:369] 
+// Tcl Message: Finished Parsing XDC File [/home/azafeer/Desktop/test/pulp_A/fpga/pulp/pulp-zcu102.srcs/constrs_1/imports/constraints/zcu102.xdc] 
+// Tcl Message: INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/azafeer/Desktop/test/pulp_A/fpga/pulp/pulp-zcu102.srcs/constrs_1/imports/constraints/zcu102.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/riscv_fetch_fifo_propImpl.xdc]. Resolution: To avoid this warning, move constraints listed in [.Xil/riscv_fetch_fifo_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis. 
+// Tcl Message: Completed Processing XDC Constraints  
+// Tcl Message: INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s). 
+// Tcl Message: refresh_design: Time (s): cpu = 00:00:18 ; elapsed = 00:00:13 . Memory (MB): peak = 10669.855 ; gain = 8.004 ; free physical = 33041 ; free virtual = 78173 
+// S (cr): Critical Messages: addNotify
+// Elapsed time: 13 seconds
+dismissDialog("Reloading"); // bB (cr)
+// Elapsed time: 10 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (S)
+dismissDialog("Critical Messages"); // S (cr)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design, Edit Timing Constraints]", 21, false); // u (O, cr)
+// TclEventType: CURR_DESIGN_SET
+// Run Command: PAResourceCommand.PACommandNames_TIMING_CONSTRAINTS_WINDOW
+// WARNING: HEventQueue.dispatchEvent() is taking  1598 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 5,645 MB. GUI used memory: 186 MB. Current time: 2/6/24, 9:16:43 PM UTC
+// Tcl Message: current_design synth_1 
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design, Report Clock Networks]", 24, false); // u (O, cr)
+// Run Command: PAResourceCommand.PACommandNames_REPORT_CLOCK_NETWORKS
+// a (cr): Report Clock Networks: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (a)
+dismissDialog("Report Clock Networks"); // a (cr)
+// Tcl Message: report_clock_networks -name {network_1} 
+// bB (cr):  Report Clock Networks : addNotify
+// TclEventType: TIMING_RESULTS_STALE
+// TclEventType: TIMING_CLOCK_NETWORKS_UPDATED
+dismissDialog("Report Clock Networks"); // bB (cr)
+expandTree(PAResourceAtoD.ClockNetworksReportView_CLOCK_NETWORK_TREE, "[top objects, clk (100.00 MHz) (drives 400 loads)]", 0); // j (O, cr)
+// PAPropertyPanels.initPanels (clk) elapsed time: 0.2s
+selectTree(PAResourceAtoD.ClockNetworksReportView_CLOCK_NETWORK_TREE, "[top objects, clk (100.00 MHz) (drives 400 loads), clk]", 1); // j (O, cr)
+selectTable(PAResourceEtoH.EditCreateClockTablePanel_EDIT_CREATE_CLOCK_TABLE, "1 ; clk ; 10.0 ; 0.0 ; 5.0 ; false ; [get_ports clk] ; /home/azafeer/Desktop/test/pulp_A/fpga/pulp/pulp-zcu102.srcs/constrs_1/imports/constraints/zcu102.xdc ;  ; ", 0, "clk", 1); // f (O, cr)
+editTable(PAResourceEtoH.EditCreateClockTablePanel_EDIT_CREATE_CLOCK_TABLE, "clk", 0, "Clock Name", 1); // f (O, cr)
+selectTable(PAResourceEtoH.EditCreateClockTablePanel_EDIT_CREATE_CLOCK_TABLE, "1 ; clk ; 10.0 ; 0.0 ; 5.0 ; false ; [get_ports clk] ; /home/azafeer/Desktop/test/pulp_A/fpga/pulp/pulp-zcu102.srcs/constrs_1/imports/constraints/zcu102.xdc ;  ; ", 0, "false", 5); // f (O, cr)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (O, cr)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ai (ao, cr)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// bB (cr):  Apply All XDC Constraints : addNotify
+selectButton("OptionPane.button", "Yes"); // JButton (A, G)
+// TclEventType: TIMING_RESULTS_STALE
+// TclEventType: SDC_CONSTR_MGR_CLEAR
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// al (cr): Save Project: addNotify
+dismissDialog("Apply All XDC Constraints"); // bB (cr)
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a (al)
+// A (cr): Out of Date Design: addNotify
+dismissDialog("Save Project"); // al (cr)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// bB (cr):  Save Constraints : addNotify
+dismissDialog("Out of Date Design"); // A (cr)
+// TclEventType: DESIGN_STALE
+// TclEventType: FILE_SET_CHANGE
+// WARNING: HEventQueue.dispatchEvent() is taking  3892 ms.
+// TclEventType: DESIGN_SAVE
+// Tcl Message: save_constraints 
+// TclEventType: DESIGN_SAVE
+// e (cr):  Run Simulation : addNotify
+dismissDialog("Save Constraints"); // bB (cr)
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// Tcl Message: launch_simulation 
+// Tcl Message: Command: launch_simulation  
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/azafeer/Desktop/test/pulp_A/fpga/pulp/pulp-zcu102.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [USF-XSim-7] Finding pre-compiled libraries... INFO: [USF-XSim-11] File '/cad/xilinx/Vivado/2019.2/data/xsim/xsim.ini' copied to run dir:'/home/azafeer/Desktop/test/pulp_A/fpga/pulp/pulp-zcu102.sim/sim_1/behav/xsim' INFO: [SIM-utils-54] Inspecting design source files for 'riscv_L0_buffer' in fileset 'sim_1'... 
+// TclEventType: PACKAGER_UNLOAD_CORE
+// Tcl Message: INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/azafeer/Desktop/test/pulp_A/fpga/pulp/pulp-zcu102.sim/sim_1/behav/xsim' 
+// Tcl Message: xvlog --incr --relax -prj riscv_L0_buffer_vlog.prj 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/azafeer/Desktop/test/pulp_A/.bender/git/checkouts/cv32e40p-0a3884e05ea5a482/rtl/riscv_L0_buffer.sv" into library xil_defaultlib INFO: [VRFC 10-311] analyzing module riscv_L0_buffer 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '2' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/azafeer/Desktop/test/pulp_A/fpga/pulp/pulp-zcu102.sim/sim_1/behav/xsim' 
+// Tcl Message: xelab -wto aad4c70b0a26430081e425acf7ddf351 --incr --debug typical --relax --mt 8 -d TARGET_FPGA= -d TARGET_SYNTHESIS= -d TARGET_VIVADO= -d TARGET_XILINX= -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot riscv_L0_buffer_behav xil_defaultlib.riscv_L0_buffer xil_defaultlib.glbl -log elaborate.log 
+// Tcl Message: Built simulation snapshot riscv_L0_buffer_behav 
+// Tcl Message:  ****** Webtalk v2019.2 (64-bit)   **** SW Build 2708876 on Wed Nov  6 21:39:14 MST 2019   **** IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019     ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.  source /home/azafeer/Desktop/test/pulp_A/fpga/pulp/pulp-zcu102.sim/sim_1/behav/xsim/xsim.dir/riscv_L0_buffer_behav/webtalk/xsim_webtalk.tcl -notrace 
+// TclEventType: LAUNCH_SIM
+// TclEventType: LOAD_FEATURE
+// Tcl Message: INFO: [Common 17-206] Exiting Webtalk at Tue Feb  6 21:17:34 2024... 
+// Tcl Message: run_program: Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 10669.855 ; gain = 0.000 ; free physical = 37767 ; free virtual = 78116 
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '7' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/home/azafeer/Desktop/test/pulp_A/fpga/pulp/pulp-zcu102.sim/sim_1/behav/xsim' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "riscv_L0_buffer_behav -key {Behavioral:sim_1:Functional:riscv_L0_buffer} -tclbatch {riscv_L0_buffer.tcl} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2019.2 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// WARNING: HEventQueue.dispatchEvent() is taking  1334 ms.
+// Tcl Message: Time resolution is 1 ps 
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// Elapsed time: 13 seconds
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// [GUI Memory]: 267 MB (+3343kb) [03:47:47]
+// Waveform: addNotify
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Tcl Message: source riscv_L0_buffer.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } 
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// HMemoryUtils.trashcanNow. Engine heap size: 5,670 MB. GUI used memory: 194 MB. Current time: 2/6/24, 9:17:39 PM UTC
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: # run 1000ns 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'riscv_L0_buffer_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 1000ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:20 ; elapsed = 00:00:16 . Memory (MB): peak = 11093.832 ; gain = 423.977 ; free physical = 37846 ; free virtual = 78097 
+// 'd' command handler elapsed time: 32 seconds
+dismissDialog("Run Simulation"); // e (cr)
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 5,685 MB. GUI used memory: 191 MB. Current time: 2/6/24, 9:17:47 PM UTC
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 5,685 MB. GUI used memory: 200 MB. Current time: 2/6/24, 9:17:48 PM UTC
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 5,685 MB. GUI used memory: 196 MB. Current time: 2/6/24, 9:17:51 PM UTC
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// Elapsed time: 18 seconds
+selectTreeTable(PAResourceQtoS.SimulationObjectsPanel_SIMULATION_OBJECTS_TREE_TABLE, "rdata_o[3:0][31:0] ; XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX ; Array", 8, "rdata_o[3:0][31:0]", 0, true); // c (c, cr) - Node
+selectTreeTable(PAResourceQtoS.SimulationObjectsPanel_SIMULATION_OBJECTS_TREE_TABLE, "rdata_o[3:0][31:0] ; XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX ; Array", 8, "rdata_o[3:0][31:0]", 0, true); // c (c, cr) - Node
+selectTreeTable(PAResourceQtoS.SimulationObjectsPanel_SIMULATION_OBJECTS_TREE_TABLE, "rdata_o[3:0][31:0] ; XXXXXXXX,XXXXXXXX,XXXXXXXX,XXXXXXXX ; Array", 8, "rdata_o[3:0][31:0]", 0, true); // c (c, cr) - Node
+selectTreeTable(PAResourceQtoS.SimulationObjectsPanel_SIMULATION_OBJECTS_TREE_TABLE, "clk ; Z ; Logic", 0, "clk", 0, false); // c (c, cr)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 5,685 MB. GUI used memory: 191 MB. Current time: 2/6/24, 9:18:07 PM UTC
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 5,685 MB. GUI used memory: 196 MB. Current time: 2/6/24, 9:18:07 PM UTC
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 5,685 MB. GUI used memory: 202 MB. Current time: 2/6/24, 9:18:07 PM UTC
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 5,685 MB. GUI used memory: 191 MB. Current time: 2/6/24, 9:18:07 PM UTC
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// Elapsed time: 19 seconds
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 692, 106); // dT (af, cr)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 5,685 MB. GUI used memory: 191 MB. Current time: 2/6/24, 9:21:05 PM UTC
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 163 seconds
+selectTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, rst_n]", 1, false); // a (r, cr)
+// HMemoryUtils.trashcanNow. Engine heap size: 5,685 MB. GUI used memory: 191 MB. Current time: 2/6/24, 9:21:08 PM UTC
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 5,685 MB. GUI used memory: 193 MB. Current time: 2/6/24, 9:21:12 PM UTC
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 5,685 MB. GUI used memory: 197 MB. Current time: 2/6/24, 9:21:12 PM UTC
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 5,685 MB. GUI used memory: 199 MB. Current time: 2/6/24, 9:21:12 PM UTC
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 5,685 MB. GUI used memory: 200 MB. Current time: 2/6/24, 9:21:13 PM UTC
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 5,685 MB. GUI used memory: 206 MB. Current time: 2/6/24, 9:21:13 PM UTC
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 97, 310); // n (o, cr)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectTab((HResource) null, (HResource) null, "Sources", 1); // aL (aI, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, xilinx_pulp (xilinx_pulp.v), i_pulp : pulp (pulp.sv), soc_domain_i : soc_domain (soc_domain.sv), pulp_soc_i : pulp_soc (pulp_soc.sv), fc_subsystem_i : fc_subsystem (fc_subsystem.sv), FC_CORE.lFC_CORE : riscv_core (riscv_core.sv), if_stage_i : riscv_if_stage (riscv_if_stage.sv), riscv_prefetch_L0_buffer (riscv_prefetch_L0_buffer.sv), riscv_L0_buffer (riscv_L0_buffer.sv)]", 24, false); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, xilinx_pulp (xilinx_pulp.v), i_pulp : pulp (pulp.sv), soc_domain_i : soc_domain (soc_domain.sv), pulp_soc_i : pulp_soc (pulp_soc.sv), fc_subsystem_i : fc_subsystem (fc_subsystem.sv), FC_CORE.lFC_CORE : riscv_core (riscv_core.sv), if_stage_i : riscv_if_stage (riscv_if_stage.sv), riscv_prefetch_L0_buffer (riscv_prefetch_L0_buffer.sv), riscv_L0_buffer (riscv_L0_buffer.sv)]", 24, false, false, false, false, false, true); // B (F, cr) - Double Click
+// Elapsed time: 59 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false, false, false, false, true, false); // u (O, cr) - Popup Trigger
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RESET_BEHAVIORAL, "Reset Behavioral Simulation"); // ai (ao, cr)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RESET_POST_SYNTHESIS_FUNCTIONAL
+// TclEventType: FILE_SET_CHANGE
+// A (cr): Reset Simulation: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// bB (cr):  Reset Simulation : addNotify
+// TclEventType: FILE_SET_CHANGE
+dismissDialog("Reset Simulation"); // A (cr)
+// TclEventType: RESET_SIM
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: reset_simulation -simset sim_1 -mode post-synthesis -type functional 
+dismissDialog("Reset Simulation"); // bB (cr)
+// Elapsed time: 252 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator, Create Block Design]", 6, false); // u (O, cr)
+// Run Command: PAResourceCommand.PACommandNames_CREATE_NEW_DIAGRAM
+// aF (cr): Create Block Design: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (aF)
+// 'L' command handler elapsed time: 3 seconds
+dismissDialog("Create Block Design"); // aF (cr)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // aa (q, cr)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // aa (q, cr)
+selectMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // aa (q, cr)
+dismissMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // aa (q, cr)
+selectMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // aa (q, cr)
+dismissMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // aa (q, cr)
+// HMemoryUtils.trashcanNow. Engine heap size: 5,686 MB. GUI used memory: 193 MB. Current time: 2/6/24, 9:51:16 PM UTC
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 2695 ms. Increasing delay to 8085 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 5,686 MB. GUI used memory: 189 MB. Current time: 2/6/24, 10:21:16 PM UTC
+// Elapsed time: 4443 seconds
+selectCodeEditor("riscv_L0_buffer.sv", 513, 169); // ch (w, cr)
+// HMemoryUtils.trashcanNow. Engine heap size: 5,686 MB. GUI used memory: 189 MB. Current time: 2/6/24, 10:51:16 PM UTC
+// HMemoryUtils.trashcanNow. Engine heap size: 5,686 MB. GUI used memory: 189 MB. Current time: 2/6/24, 11:21:16 PM UTC
+// HMemoryUtils.trashcanNow. Engine heap size: 5,686 MB. GUI used memory: 188 MB. Current time: 2/6/24, 11:51:16 PM UTC
+// HMemoryUtils.trashcanNow. Engine heap size: 5,686 MB. GUI used memory: 188 MB. Current time: 2/7/24, 12:21:16 AM UTC
+// HMemoryUtils.trashcanNow. Engine heap size: 5,686 MB. GUI used memory: 188 MB. Current time: 2/7/24, 12:51:16 AM UTC
+// HMemoryUtils.trashcanNow. Engine heap size: 5,686 MB. GUI used memory: 188 MB. Current time: 2/7/24, 1:21:16 AM UTC
+// HMemoryUtils.trashcanNow. Engine heap size: 5,686 MB. GUI used memory: 188 MB. Current time: 2/7/24, 1:51:17 AM UTC
+// HMemoryUtils.trashcanNow. Engine heap size: 5,686 MB. GUI used memory: 188 MB. Current time: 2/7/24, 2:21:17 AM UTC
+// HMemoryUtils.trashcanNow. Engine heap size: 5,686 MB. GUI used memory: 188 MB. Current time: 2/7/24, 2:51:17 AM UTC
+// HMemoryUtils.trashcanNow. Engine heap size: 5,686 MB. GUI used memory: 188 MB. Current time: 2/7/24, 3:21:17 AM UTC
+// HMemoryUtils.trashcanNow. Engine heap size: 5,686 MB. GUI used memory: 188 MB. Current time: 2/7/24, 3:51:17 AM UTC
+// HMemoryUtils.trashcanNow. Engine heap size: 5,686 MB. GUI used memory: 188 MB. Current time: 2/7/24, 4:21:17 AM UTC
+// HMemoryUtils.trashcanNow. Engine heap size: 5,686 MB. GUI used memory: 188 MB. Current time: 2/7/24, 4:51:17 AM UTC
+// HMemoryUtils.trashcanNow. Engine heap size: 5,686 MB. GUI used memory: 188 MB. Current time: 2/7/24, 5:21:17 AM UTC
+// HMemoryUtils.trashcanNow. Engine heap size: 5,686 MB. GUI used memory: 188 MB. Current time: 2/7/24, 5:51:17 AM UTC
+// HMemoryUtils.trashcanNow. Engine heap size: 5,686 MB. GUI used memory: 188 MB. Current time: 2/7/24, 6:21:17 AM UTC
+// HMemoryUtils.trashcanNow. Engine heap size: 5,686 MB. GUI used memory: 188 MB. Current time: 2/7/24, 6:51:17 AM UTC
+// HMemoryUtils.trashcanNow. Engine heap size: 5,686 MB. GUI used memory: 188 MB. Current time: 2/7/24, 7:21:17 AM UTC
+// HMemoryUtils.trashcanNow. Engine heap size: 5,686 MB. GUI used memory: 188 MB. Current time: 2/7/24, 7:51:17 AM UTC
+// HMemoryUtils.trashcanNow. Engine heap size: 5,686 MB. GUI used memory: 188 MB. Current time: 2/7/24, 8:21:17 AM UTC
+// HMemoryUtils.trashcanNow. Engine heap size: 5,686 MB. GUI used memory: 188 MB. Current time: 2/7/24, 8:51:17 AM UTC
+// HMemoryUtils.trashcanNow. Engine heap size: 5,686 MB. GUI used memory: 188 MB. Current time: 2/7/24, 9:21:17 AM UTC
+// HMemoryUtils.trashcanNow. Engine heap size: 5,686 MB. GUI used memory: 188 MB. Current time: 2/7/24, 9:51:17 AM UTC
+// HMemoryUtils.trashcanNow. Engine heap size: 5,686 MB. GUI used memory: 188 MB. Current time: 2/7/24, 10:21:17 AM UTC
+// HMemoryUtils.trashcanNow. Engine heap size: 5,686 MB. GUI used memory: 188 MB. Current time: 2/7/24, 10:51:18 AM UTC
+// HMemoryUtils.trashcanNow. Engine heap size: 5,686 MB. GUI used memory: 188 MB. Current time: 2/7/24, 11:21:18 AM UTC
+// HMemoryUtils.trashcanNow. Engine heap size: 5,686 MB. GUI used memory: 188 MB. Current time: 2/7/24, 11:51:18 AM UTC
