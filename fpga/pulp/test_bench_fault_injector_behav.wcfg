@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="test_bench_fault_injector_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="\$unit_apb_intf_sv " />
+            <top_module name="glbl" />
+            <top_module name="test_bench_fault_injector" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="297047fs"></ZoomStartTime>
+      <ZoomEndTime time="392748fs"></ZoomEndTime>
+      <Cursor1Time time="577983fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="375"></NameColumnWidth>
+      <ValueColumnWidth column_width="203"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="38" />
+   <wvobject type="logic" fp_name="/test_bench_fault_injector/clk_i">
+      <obj_property name="ElementShortName">clk_i</obj_property>
+      <obj_property name="ObjectShortName">clk_i</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_bench_fault_injector/rst_ni">
+      <obj_property name="ElementShortName">rst_ni</obj_property>
+      <obj_property name="ObjectShortName">rst_ni</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_bench_fault_injector/psel">
+      <obj_property name="ElementShortName">psel</obj_property>
+      <obj_property name="ObjectShortName">psel</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_bench_fault_injector/penable">
+      <obj_property name="ElementShortName">penable</obj_property>
+      <obj_property name="ObjectShortName">penable</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_bench_fault_injector/pwrite">
+      <obj_property name="ElementShortName">pwrite</obj_property>
+      <obj_property name="ObjectShortName">pwrite</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_bench_fault_injector/pready">
+      <obj_property name="ElementShortName">pready</obj_property>
+      <obj_property name="ObjectShortName">pready</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_bench_fault_injector/pslaveerr">
+      <obj_property name="ElementShortName">pslaveerr</obj_property>
+      <obj_property name="ObjectShortName">pslaveerr</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_bench_fault_injector/PADDR">
+      <obj_property name="ElementShortName">PADDR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PADDR[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_bench_fault_injector/PWDATA">
+      <obj_property name="ElementShortName">PWDATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PWDATA[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_bench_fault_injector/PRDATA">
+      <obj_property name="ElementShortName">PRDATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PRDATA[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_bench_fault_injector/drivers">
+      <obj_property name="ElementShortName">drivers[255:0]</obj_property>
+      <obj_property name="ObjectShortName">drivers[255:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_bench_fault_injector/dut/fault_injector/PADDR">
+      <obj_property name="ElementShortName">PADDR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PADDR[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_bench_fault_injector/dut/fault_injector/PSEL">
+      <obj_property name="ElementShortName">PSEL</obj_property>
+      <obj_property name="ObjectShortName">PSEL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_bench_fault_injector/dut/fault_injector/PENABLE">
+      <obj_property name="ElementShortName">PENABLE</obj_property>
+      <obj_property name="ObjectShortName">PENABLE</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_bench_fault_injector/dut/fault_injector/PWRITE">
+      <obj_property name="ElementShortName">PWRITE</obj_property>
+      <obj_property name="ObjectShortName">PWRITE</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_bench_fault_injector/dut/fault_injector/PWDATA">
+      <obj_property name="ElementShortName">PWDATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PWDATA[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_bench_fault_injector/dut/fault_injector/PREADY">
+      <obj_property name="ElementShortName">PREADY</obj_property>
+      <obj_property name="ObjectShortName">PREADY</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_bench_fault_injector/dut/fault_injector/PRDATA">
+      <obj_property name="ElementShortName">PRDATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PRDATA[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_bench_fault_injector/dut/fault_injector/PSLAVEERR">
+      <obj_property name="ElementShortName">PSLAVEERR</obj_property>
+      <obj_property name="ObjectShortName">PSLAVEERR</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group143">
+      <obj_property name="label">apb_bus</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="array" fp_name="/test_bench_fault_injector/faultinjector_bus/paddr">
+         <obj_property name="ElementShortName">paddr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">paddr[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/test_bench_fault_injector/faultinjector_bus/pwdata">
+         <obj_property name="ElementShortName">pwdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">pwdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/test_bench_fault_injector/faultinjector_bus/pwrite">
+         <obj_property name="ElementShortName">pwrite</obj_property>
+         <obj_property name="ObjectShortName">pwrite</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/test_bench_fault_injector/faultinjector_bus/psel">
+         <obj_property name="ElementShortName">psel</obj_property>
+         <obj_property name="ObjectShortName">psel</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/test_bench_fault_injector/faultinjector_bus/penable">
+         <obj_property name="ElementShortName">penable</obj_property>
+         <obj_property name="ObjectShortName">penable</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/test_bench_fault_injector/faultinjector_bus/prdata">
+         <obj_property name="ElementShortName">prdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">prdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/test_bench_fault_injector/faultinjector_bus/pready">
+         <obj_property name="ElementShortName">pready</obj_property>
+         <obj_property name="ObjectShortName">pready</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/test_bench_fault_injector/faultinjector_bus/pslverr">
+         <obj_property name="ElementShortName">pslverr</obj_property>
+         <obj_property name="ObjectShortName">pslverr</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_bench_fault_injector/dut/fault_injector/fg_fifo_config_driver_ports">
+      <obj_property name="ElementShortName">fg_fifo_config_driver_ports[255:0]</obj_property>
+      <obj_property name="ObjectShortName">fg_fifo_config_driver_ports[255:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_bench_fault_injector/dut/fault_injector/fg_delay_cycles">
+      <obj_property name="ElementShortName">fg_delay_cycles[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fg_delay_cycles[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_bench_fault_injector/dut/fault_injector/fg_pulse_width">
+      <obj_property name="ElementShortName">fg_pulse_width[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fg_pulse_width[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_bench_fault_injector/dut/fault_injector/fg_fifo_config_start_op">
+      <obj_property name="ElementShortName">fg_fifo_config_start_op</obj_property>
+      <obj_property name="ObjectShortName">fg_fifo_config_start_op</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_bench_fault_injector/dut/fault_injector/fg_seed_value">
+      <obj_property name="ElementShortName">fg_seed_value[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fg_seed_value[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_bench_fault_injector/dut/fault_injector/fg_fifo_config_fsm_state">
+      <obj_property name="ElementShortName">fg_fifo_config_fsm_state[1:0]</obj_property>
+      <obj_property name="ObjectShortName">fg_fifo_config_fsm_state[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_bench_fault_injector/dut/fault_injector/fg_en_delay_cycles">
+      <obj_property name="ElementShortName">fg_en_delay_cycles</obj_property>
+      <obj_property name="ObjectShortName">fg_en_delay_cycles</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_bench_fault_injector/dut/fault_injector/fg_en_pulse_width">
+      <obj_property name="ElementShortName">fg_en_pulse_width</obj_property>
+      <obj_property name="ObjectShortName">fg_en_pulse_width</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_bench_fault_injector/dut/fault_injector/fg_en_start_op">
+      <obj_property name="ElementShortName">fg_en_start_op</obj_property>
+      <obj_property name="ObjectShortName">fg_en_start_op</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_bench_fault_injector/dut/fault_injector/fg_en_read_address_fifo">
+      <obj_property name="ElementShortName">fg_en_read_address_fifo</obj_property>
+      <obj_property name="ObjectShortName">fg_en_read_address_fifo</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_bench_fault_injector/dut/fault_injector/fg_en_read_timer_fifo">
+      <obj_property name="ElementShortName">fg_en_read_timer_fifo</obj_property>
+      <obj_property name="ObjectShortName">fg_en_read_timer_fifo</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_bench_fault_injector/dut/fault_injector/fg_en_seed_value">
+      <obj_property name="ElementShortName">fg_en_seed_value</obj_property>
+      <obj_property name="ObjectShortName">fg_en_seed_value</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group74">
+      <obj_property name="label">address fifo</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="array" fp_name="/test_bench_fault_injector/dut/fault_injector/fg_fifo_config_address_data_o">
+         <obj_property name="ElementShortName">fg_fifo_config_address_data_o[31:0]</obj_property>
+         <obj_property name="ObjectShortName">fg_fifo_config_address_data_o[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/test_bench_fault_injector/dut/fault_injector/fg_fifo_config_fault_address">
+         <obj_property name="ElementShortName">fg_fifo_config_fault_address[31:0]</obj_property>
+         <obj_property name="ObjectShortName">fg_fifo_config_fault_address[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/test_bench_fault_injector/dut/fault_injector/fg_fifo_config_address_valid_i">
+         <obj_property name="ElementShortName">fg_fifo_config_address_valid_i</obj_property>
+         <obj_property name="ObjectShortName">fg_fifo_config_address_valid_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/test_bench_fault_injector/dut/fault_injector/fg_fifo_config_address_ready_i">
+         <obj_property name="ElementShortName">fg_fifo_config_address_ready_i</obj_property>
+         <obj_property name="ObjectShortName">fg_fifo_config_address_ready_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/test_bench_fault_injector/dut/fault_injector/fg_fifo_config_address_valid_o">
+         <obj_property name="ElementShortName">fg_fifo_config_address_valid_o</obj_property>
+         <obj_property name="ObjectShortName">fg_fifo_config_address_valid_o</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/test_bench_fault_injector/dut/fault_injector/fg_fifo_config_address_ready_o">
+         <obj_property name="ElementShortName">fg_fifo_config_address_ready_o</obj_property>
+         <obj_property name="ObjectShortName">fg_fifo_config_address_ready_o</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/test_bench_fault_injector/dut/fault_injector/fg_fifo_config_address_data_i">
+         <obj_property name="ElementShortName">fg_fifo_config_address_data_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">fg_fifo_config_address_data_i[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group75">
+      <obj_property name="label">timer fifo</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="array" fp_name="/test_bench_fault_injector/dut/fault_injector/fg_fifo_config_timing_data_o">
+         <obj_property name="ElementShortName">fg_fifo_config_timing_data_o[31:0]</obj_property>
+         <obj_property name="ObjectShortName">fg_fifo_config_timing_data_o[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/test_bench_fault_injector/dut/fault_injector/fg_fifo_config_timing_data_i">
+         <obj_property name="ElementShortName">fg_fifo_config_timing_data_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">fg_fifo_config_timing_data_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/test_bench_fault_injector/dut/fault_injector/fg_fifo_config_timing_ready_o">
+         <obj_property name="ElementShortName">fg_fifo_config_timing_ready_o</obj_property>
+         <obj_property name="ObjectShortName">fg_fifo_config_timing_ready_o</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/test_bench_fault_injector/dut/fault_injector/fg_fifo_config_timing_valid_o">
+         <obj_property name="ElementShortName">fg_fifo_config_timing_valid_o</obj_property>
+         <obj_property name="ObjectShortName">fg_fifo_config_timing_valid_o</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/test_bench_fault_injector/dut/fault_injector/fg_fifo_config_timing_ready_i">
+         <obj_property name="ElementShortName">fg_fifo_config_timing_ready_i</obj_property>
+         <obj_property name="ObjectShortName">fg_fifo_config_timing_ready_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/test_bench_fault_injector/dut/fault_injector/fg_fifo_config_timing_valid_i">
+         <obj_property name="ElementShortName">fg_fifo_config_timing_valid_i</obj_property>
+         <obj_property name="ObjectShortName">fg_fifo_config_timing_valid_i</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/test_bench_fault_injector/dut/fault_injector/fg_fifo_config_ref_counter">
+         <obj_property name="ElementShortName">fg_fifo_config_ref_counter[31:0]</obj_property>
+         <obj_property name="ObjectShortName">fg_fifo_config_ref_counter[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_bench_fault_injector/faultinjector_bus/APB_ADDR_WIDTH">
+      <obj_property name="ElementShortName">APB_ADDR_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">APB_ADDR_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_bench_fault_injector/faultinjector_bus/APB_DATA_WIDTH">
+      <obj_property name="ElementShortName">APB_DATA_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">APB_DATA_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_bench_fault_injector/faultinjector_bus/APB_ADDR_WIDTH">
+      <obj_property name="ElementShortName">APB_ADDR_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">APB_ADDR_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_bench_fault_injector/faultinjector_bus/APB_DATA_WIDTH">
+      <obj_property name="ElementShortName">APB_DATA_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">APB_DATA_WIDTH[31:0]</obj_property>
+   </wvobject>
+</wave_config>
