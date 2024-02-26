@@ -3,24 +3,23 @@
    <wave_state>
    </wave_state>
    <db_ref_list>
-      <db_ref path="test_bench_fault_injector_behav.wdb" id="1">
+      <db_ref path="test_bench_fault_injector_func_synth.wdb" id="1">
          <top_modules>
-            <top_module name="\$unit_apb_intf_sv " />
             <top_module name="glbl" />
             <top_module name="test_bench_fault_injector" />
          </top_modules>
       </db_ref>
    </db_ref_list>
    <zoom_setting>
-      <ZoomStartTime time="297047fs"></ZoomStartTime>
-      <ZoomEndTime time="392748fs"></ZoomEndTime>
-      <Cursor1Time time="577983fs"></Cursor1Time>
+      <ZoomStartTime time="695040fs"></ZoomStartTime>
+      <ZoomEndTime time="887441fs"></ZoomEndTime>
+      <Cursor1Time time="355100fs"></Cursor1Time>
    </zoom_setting>
    <column_width_setting>
       <NameColumnWidth column_width="375"></NameColumnWidth>
-      <ValueColumnWidth column_width="203"></ValueColumnWidth>
+      <ValueColumnWidth column_width="198"></ValueColumnWidth>
    </column_width_setting>
-   <WVObjectSize size="38" />
+   <WVObjectSize size="32" />
    <wvobject type="logic" fp_name="/test_bench_fault_injector/clk_i">
       <obj_property name="ElementShortName">clk_i</obj_property>
       <obj_property name="ObjectShortName">clk_i</obj_property>
@@ -158,30 +157,6 @@
       <obj_property name="ElementShortName">fg_fifo_config_fsm_state[1:0]</obj_property>
       <obj_property name="ObjectShortName">fg_fifo_config_fsm_state[1:0]</obj_property>
    </wvobject>
-   <wvobject type="logic" fp_name="/test_bench_fault_injector/dut/fault_injector/fg_en_delay_cycles">
-      <obj_property name="ElementShortName">fg_en_delay_cycles</obj_property>
-      <obj_property name="ObjectShortName">fg_en_delay_cycles</obj_property>
-   </wvobject>
-   <wvobject type="logic" fp_name="/test_bench_fault_injector/dut/fault_injector/fg_en_pulse_width">
-      <obj_property name="ElementShortName">fg_en_pulse_width</obj_property>
-      <obj_property name="ObjectShortName">fg_en_pulse_width</obj_property>
-   </wvobject>
-   <wvobject type="logic" fp_name="/test_bench_fault_injector/dut/fault_injector/fg_en_start_op">
-      <obj_property name="ElementShortName">fg_en_start_op</obj_property>
-      <obj_property name="ObjectShortName">fg_en_start_op</obj_property>
-   </wvobject>
-   <wvobject type="logic" fp_name="/test_bench_fault_injector/dut/fault_injector/fg_en_read_address_fifo">
-      <obj_property name="ElementShortName">fg_en_read_address_fifo</obj_property>
-      <obj_property name="ObjectShortName">fg_en_read_address_fifo</obj_property>
-   </wvobject>
-   <wvobject type="logic" fp_name="/test_bench_fault_injector/dut/fault_injector/fg_en_read_timer_fifo">
-      <obj_property name="ElementShortName">fg_en_read_timer_fifo</obj_property>
-      <obj_property name="ObjectShortName">fg_en_read_timer_fifo</obj_property>
-   </wvobject>
-   <wvobject type="logic" fp_name="/test_bench_fault_injector/dut/fault_injector/fg_en_seed_value">
-      <obj_property name="ElementShortName">fg_en_seed_value</obj_property>
-      <obj_property name="ObjectShortName">fg_en_seed_value</obj_property>
-   </wvobject>
    <wvobject type="group" fp_name="group74">
       <obj_property name="label">address fifo</obj_property>
       <obj_property name="DisplayName">label</obj_property>
@@ -193,10 +168,6 @@
       <wvobject type="array" fp_name="/test_bench_fault_injector/dut/fault_injector/fg_fifo_config_fault_address">
          <obj_property name="ElementShortName">fg_fifo_config_fault_address[31:0]</obj_property>
          <obj_property name="ObjectShortName">fg_fifo_config_fault_address[31:0]</obj_property>
-      </wvobject>
-      <wvobject type="logic" fp_name="/test_bench_fault_injector/dut/fault_injector/fg_fifo_config_address_valid_i">
-         <obj_property name="ElementShortName">fg_fifo_config_address_valid_i</obj_property>
-         <obj_property name="ObjectShortName">fg_fifo_config_address_valid_i</obj_property>
       </wvobject>
       <wvobject type="logic" fp_name="/test_bench_fault_injector/dut/fault_injector/fg_fifo_config_address_ready_i">
          <obj_property name="ElementShortName">fg_fifo_config_address_ready_i</obj_property>
@@ -210,6 +181,10 @@
          <obj_property name="ElementShortName">fg_fifo_config_address_ready_o</obj_property>
          <obj_property name="ObjectShortName">fg_fifo_config_address_ready_o</obj_property>
       </wvobject>
+      <wvobject type="logic" fp_name="/test_bench_fault_injector/dut/fault_injector/fg_fifo_config_address_fifo/fg_fifo_valid_i">
+         <obj_property name="ElementShortName">fg_fifo_valid_i</obj_property>
+         <obj_property name="ObjectShortName">fg_fifo_valid_i</obj_property>
+      </wvobject>
       <wvobject type="array" fp_name="/test_bench_fault_injector/dut/fault_injector/fg_fifo_config_address_data_i">
          <obj_property name="ElementShortName">fg_fifo_config_address_data_i[31:0]</obj_property>
          <obj_property name="ObjectShortName">fg_fifo_config_address_data_i[31:0]</obj_property>
@@ -218,6 +193,7 @@
    <wvobject type="group" fp_name="group75">
       <obj_property name="label">timer fifo</obj_property>
       <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
       <wvobject type="array" fp_name="/test_bench_fault_injector/dut/fault_injector/fg_fifo_config_timing_data_o">
          <obj_property name="ElementShortName">fg_fifo_config_timing_data_o[31:0]</obj_property>
          <obj_property name="ObjectShortName">fg_fifo_config_timing_data_o[31:0]</obj_property>
@@ -245,6 +221,10 @@
       <wvobject type="array" fp_name="/test_bench_fault_injector/dut/fault_injector/fg_fifo_config_ref_counter">
          <obj_property name="ElementShortName">fg_fifo_config_ref_counter[31:0]</obj_property>
          <obj_property name="ObjectShortName">fg_fifo_config_ref_counter[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/test_bench_fault_injector/dut/fault_injector/fg_fifo_config_timing_fifo/fg_fifo_valid_i">
+         <obj_property name="ElementShortName">fg_fifo_valid_i</obj_property>
+         <obj_property name="ObjectShortName">fg_fifo_valid_i</obj_property>
       </wvobject>
    </wvobject>
    <wvobject type="array" fp_name="/test_bench_fault_injector/faultinjector_bus/APB_ADDR_WIDTH">
